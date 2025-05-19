@@ -17,9 +17,13 @@ y2d [РЕЖИМ] [URL]
 ## Сборка в Termux
 ```shell
 pkg install cmake gcc
-git clone [thisRepo]
+git clone git@github.com:Luwerdwighime/y2d.git
 cd y2d
 ./build.sh
+
+# Если хочется ещё и HTML документацию, то:
+pkg install doxygen
+doxygen
 
 ```
 
