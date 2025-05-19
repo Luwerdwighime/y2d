@@ -1,0 +1,45 @@
+/**
+ * @brief Модуль для работы с yt-dlp
+ */
+
+#pragma once
+#include <stdio.h>  // Для printf(), snprintf(), popen(), perror()
+#include <stdlib.h> // Для system()
+#include <string.h> // Для strcspn()
+#include <unistd.h> // Для sleep()
+#include "fs.h"     // Для is_video_downloaded()
+#include "config.h" // Конфигурация
+
+/**
+ * @brief Подготавливает опции yt-dlp под режим
+ *
+ * @param mode Один из пяти режимов работы, букво-цифрами от '1' до '5'
+ * @return строка параметров yt-dlp
+ */
+char* getOpts(char mode);
+
+/**
+ * @brief Скачка url с запрошенным режимом
+ *
+ * @param url  Строка с url
+ * @param mode Один из пяти режимов работы, букво-цифрами от '1' до '5'
+ */
+void yt_dlp(char* url, char mode);
+
+/**
+ * @brief Обёртка вокруг консольной команды yt-dlp
+ *
+ * @param url      Что качать
+ * @param opts     С какими опциями
+ * @param out_dir  Куда складывать
+ * @param out_tmpl Как называть
+ */
+void run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl);
+
+/**
+ * @brief Получение и обработка ID видео из плейлиста
+ *
+ * @param url Url плейлиста
+ */
+void process_playlist_ids(char *url);
+
