@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Модуль для работы с yt&#45;dlp.">
 <polygon fill="#999999" stroke="#666666" points="112.25,-77.5 40,-77.5 40,-56.75 112.25,-56.75 112.25,-77.5"/>
 <text text-anchor="middle" x="76.12" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00">src/yt_dlp.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="main_8c.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="main_8c.html" target="_top" xlink:title="Прога для комфортного кача с YouTube.">
 <polygon fill="white" stroke="#666666" points="66.25,-20.75 0,-20.75 0,0 66.25,0 66.25,-20.75"/>
 <text text-anchor="middle" x="33.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">src/main.c</text>
 </a>

@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" target="_top" xlink:title="Модуль для работы с файловой системой">
+<g id="a_Node000002"><a xlink:href="fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" target="_top" xlink:title="Создаёт папку, если её ещё нет">
 <polygon fill="white" stroke="#666666" points="143,-20.75 87.25,-20.75 87.25,0 143,0 143,-20.75"/>
 <text text-anchor="middle" x="115.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">mkdir_p</text>
 </a>

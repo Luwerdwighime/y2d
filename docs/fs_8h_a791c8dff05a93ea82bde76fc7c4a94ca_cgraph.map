@@ -1,5 +1,5 @@
 <map id="initDirs" name="initDirs">
 <area shape="rect" id="Node000001" title="Создаёт нужные папки" alt="" coords="5,5,74,33"/>
-<area shape="rect" id="Node000002" href="$fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" title="Модуль для работы с файловой системой" alt="" coords="122,5,196,33"/>
+<area shape="rect" id="Node000002" href="$fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" title="Создаёт папку, если её ещё нет" alt="" coords="122,5,196,33"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="74,16,106,16,106,22,74,22"/>
 </map>

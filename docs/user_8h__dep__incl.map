@@ -1,6 +1,6 @@
 <map id="src/user.h" name="src/user.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="62,5,146,33"/>
-<area shape="rect" id="Node000002" href="$main_8c.html" title=" " alt="" coords="5,81,94,109"/>
+<area shape="rect" id="Node000001" title="Модуль для работы с юзером" alt="" coords="62,5,146,33"/>
+<area shape="rect" id="Node000002" href="$main_8c.html" title="Прога для комфортного кача с YouTube." alt="" coords="5,81,94,109"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,47,61,82,57,79,83,44"/>
 <area shape="rect" id="Node000003" href="$user_8c.html" title=" " alt="" coords="118,81,200,109"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,44,151,79,147,82,121,47"/>

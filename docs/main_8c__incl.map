@@ -1,10 +1,10 @@
 <map id="src/main.c" name="src/main.c">
-<area shape="rect" id="Node000001" title=" " alt="" coords="184,5,272,33"/>
-<area shape="rect" id="Node000002" href="$fs_8h.html" title=" " alt="" coords="251,157,296,184"/>
+<area shape="rect" id="Node000001" title="Прога для комфортного кача с YouTube." alt="" coords="184,5,272,33"/>
+<area shape="rect" id="Node000002" href="$fs_8h.html" title="Модуль для работы с файловой системой" alt="" coords="251,157,296,184"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="235,33,257,108,268,141,262,142,252,109,230,34"/>
-<area shape="rect" id="Node000009" href="$user_8h.html" title=" " alt="" coords="65,157,125,184"/>
+<area shape="rect" id="Node000009" href="$user_8h.html" title="Модуль для работы с юзером" alt="" coords="65,157,125,184"/>
 <area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="219,35,119,146,115,143,215,31"/>
-<area shape="rect" id="Node000010" href="$yt__dlp_8h.html" title=" " alt="" coords="266,81,340,109"/>
+<area shape="rect" id="Node000010" href="$yt__dlp_8h.html" title="Модуль для работы с yt&#45;dlp." alt="" coords="266,81,340,109"/>
 <area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="243,32,281,68,277,72,240,35"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="300,232,367,260"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="286,183,315,218,311,222,282,187"/>
@@ -16,7 +16,7 @@
 <area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="297,176,469,227,468,232,296,181"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="191,232,276,260"/>
 <area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="269,186,250,220,246,217,264,184"/>
-<area shape="rect" id="Node000008" href="$config_8h.html" title=" " alt="" coords="5,232,78,260"/>
+<area shape="rect" id="Node000008" href="$config_8h.html" title="Конфигурация" alt="" coords="5,232,78,260"/>
 <area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="251,182,93,231,92,226,250,177"/>
 <area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="104,184,123,217,118,220,100,186"/>
 <area shape="poly" id="edge10_Node000009_Node000008" title=" " alt="" coords="87,186,62,221,58,218,83,183"/>

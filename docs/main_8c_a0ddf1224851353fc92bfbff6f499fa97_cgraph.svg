@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title="Прога для комфортного кача с YouTube.">
+<g id="a_Node000001"><a xlink:title=" ">
 <polygon fill="#999999" stroke="#666666" points="40.75,-116.75 0,-116.75 0,-96 40.75,-96 40.75,-116.75"/>
 <text text-anchor="middle" x="20.38" y="-103.25" font-family="Helvetica,sans-Serif" font-size="10.00">main</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="user_8c.html#a6ba0075fa588e1e916fae184c13aedb2" target="_top" xlink:title="Модуль для работы с юзером">
+<g id="a_Node000005"><a xlink:href="user_8c.html#a6ba0075fa588e1e916fae184c13aedb2" target="_top" xlink:title="Показывает главное меню">
 <polygon fill="white" stroke="#666666" points="124.25,-97.75 80.5,-97.75 80.5,-77 124.25,-77 124.25,-97.75"/>
 <text text-anchor="middle" x="102.38" y="-84.25" font-family="Helvetica,sans-Serif" font-size="10.00">menu</text>
 </a>
@@ -92,7 +92,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" target="_top" xlink:title="Модуль для работы с файловой системой">
+<g id="a_Node000004"><a xlink:href="fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" target="_top" xlink:title="Создаёт папку, если её ещё нет">
 <polygon fill="white" stroke="#666666" points="249,-136.75 193.25,-136.75 193.25,-116 249,-116 249,-136.75"/>
 <text text-anchor="middle" x="221.12" y="-123.25" font-family="Helvetica,sans-Serif" font-size="10.00">mkdir_p</text>
 </a>
@@ -110,7 +110,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375" target="_top" xlink:title="Модуль для работы с yt&#45;dlp.">
+<g id="a_Node000007"><a xlink:href="yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375" target="_top" xlink:title="Подготавливает опции yt&#45;dlp под режим">
 <polygon fill="white" stroke="#666666" points="248.25,-97.75 194,-97.75 194,-77 248.25,-77 248.25,-97.75"/>
 <text text-anchor="middle" x="221.12" y="-84.25" font-family="Helvetica,sans-Serif" font-size="10.00">getOpts</text>
 </a>

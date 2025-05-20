@@ -1,16 +1,16 @@
 <map id="main" name="main">
-<area shape="rect" id="Node000001" title="Прога для комфортного кача с YouTube." alt="" coords="5,84,60,112"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,60,112"/>
 <area shape="rect" id="Node000002" href="$user_8c.html#affafc76072e99451fd0ed4d9798d82f9" title="Вытряхивает url с юзера" alt="" coords="111,5,172,33"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="52,81,107,40,110,45,55,86"/>
 <area shape="rect" id="Node000003" href="$fs_8c.html#a791c8dff05a93ea82bde76fc7c4a94ca" title="Создаёт нужные папки" alt="" coords="108,57,176,85"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,89,92,81,93,86,61,94"/>
-<area shape="rect" id="Node000005" href="$user_8c.html#a6ba0075fa588e1e916fae184c13aedb2" title="Модуль для работы с юзером" alt="" coords="113,109,171,137"/>
+<area shape="rect" id="Node000005" href="$user_8c.html#a6ba0075fa588e1e916fae184c13aedb2" title="Показывает главное меню" alt="" coords="113,109,171,137"/>
 <area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="61,102,98,110,97,116,60,107"/>
 <area shape="rect" id="Node000006" href="$yt__dlp_8c.html#ad12a3554ed1a8bd9992ac6c7ae709bdd" title="Скачка url с запрошенным режимом" alt="" coords="111,161,172,189"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="55,110,110,150,107,154,52,114"/>
-<area shape="rect" id="Node000004" href="$fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" title="Модуль для работы с файловой системой" alt="" coords="263,57,337,85"/>
+<area shape="rect" id="Node000004" href="$fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d" title="Создаёт папку, если её ещё нет" alt="" coords="263,57,337,85"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="177,68,248,68,248,74,177,74"/>
-<area shape="rect" id="Node000007" href="$yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375" title="Модуль для работы с yt&#45;dlp." alt="" coords="264,109,336,137"/>
+<area shape="rect" id="Node000007" href="$yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375" title="Подготавливает опции yt&#45;dlp под режим" alt="" coords="264,109,336,137"/>
 <area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="172,163,249,137,250,142,174,168"/>
 <area shape="rect" id="Node000008" href="$yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7" title="Получение и обработка ID видео из плейлиста" alt="" coords="224,161,376,189"/>
 <area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="173,172,208,172,208,178,173,178"/>

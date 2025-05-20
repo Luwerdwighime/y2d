@@ -1,4 +1,5 @@
 /**
+ * @file main.c
  * @brief Прога для комфортного кача с YouTube
  */
 

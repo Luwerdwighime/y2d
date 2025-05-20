@@ -1,6 +1,6 @@
 <map id="src/fs.c" name="src/fs.c">
 <area shape="rect" id="Node000001" title=" " alt="" coords="235,5,302,33"/>
-<area shape="rect" id="Node000002" href="$fs_8h.html" title=" " alt="" coords="246,81,291,109"/>
+<area shape="rect" id="Node000002" href="$fs_8h.html" title="Модуль для работы с файловой системой" alt="" coords="246,81,291,109"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="271,34,271,65,266,65,266,34"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,157,73,184"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,106,88,156,86,151,244,101"/>
@@ -12,6 +12,6 @@
 <area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="279,108,301,142,296,145,274,111"/>
 <area shape="rect" id="Node000007" title=" " alt="" coords="374,157,458,184"/>
 <area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="293,105,378,147,375,152,290,110"/>
-<area shape="rect" id="Node000008" href="$config_8h.html" title=" " alt="" coords="483,157,555,184"/>
+<area shape="rect" id="Node000008" href="$config_8h.html" title="Конфигурация" alt="" coords="483,157,555,184"/>
 <area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="292,100,469,152,467,157,291,105"/>
 </map>

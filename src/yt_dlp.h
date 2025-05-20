@@ -1,4 +1,5 @@
 /**
+ * @file yt_dlp.h
  * @brief Модуль для работы с yt-dlp
  */
 

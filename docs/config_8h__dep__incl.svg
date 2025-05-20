@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="Node000001" class="node">
 <title>Node1</title>
-<g id="a_Node000001"><a xlink:title=" ">
+<g id="a_Node000001"><a xlink:title="Конфигурация">
 <polygon fill="#999999" stroke="#666666" points="150.88,-191 79.38,-191 79.38,-170.25 150.88,-170.25 150.88,-191"/>
 <text text-anchor="middle" x="115.12" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">src/config.h</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="fs_8h.html" target="_top" xlink:title=" ">
+<g id="a_Node000002"><a xlink:href="fs_8h.html" target="_top" xlink:title="Модуль для работы с файловой системой">
 <polygon fill="white" stroke="#666666" points="140.75,-134.25 89.5,-134.25 89.5,-113.5 140.75,-113.5 140.75,-134.25"/>
 <text text-anchor="middle" x="115.12" y="-120.75" font-family="Helvetica,sans-Serif" font-size="10.00">src/fs.h</text>
 </a>
@@ -38,7 +38,7 @@
 <!-- Node5 -->
 <g id="Node000005" class="node">
 <title>Node5</title>
-<g id="a_Node000005"><a xlink:href="yt__dlp_8h.html" target="_top" xlink:title=" ">
+<g id="a_Node000005"><a xlink:href="yt__dlp_8h.html" target="_top" xlink:title="Модуль для работы с yt&#45;dlp.">
 <polygon fill="white" stroke="#666666" points="72.25,-77.5 0,-77.5 0,-56.75 72.25,-56.75 72.25,-77.5"/>
 <text text-anchor="middle" x="36.12" y="-64" font-family="Helvetica,sans-Serif" font-size="10.00">src/yt_dlp.h</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- Node7 -->
 <g id="Node000007" class="node">
 <title>Node7</title>
-<g id="a_Node000007"><a xlink:href="user_8h.html" target="_top" xlink:title=" ">
+<g id="a_Node000007"><a xlink:href="user_8h.html" target="_top" xlink:title="Модуль для работы с юзером">
 <polygon fill="white" stroke="#666666" points="237.38,-134.25 174.88,-134.25 174.88,-113.5 237.38,-113.5 237.38,-134.25"/>
 <text text-anchor="middle" x="206.12" y="-120.75" font-family="Helvetica,sans-Serif" font-size="10.00">src/user.h</text>
 </a>
@@ -92,7 +92,7 @@
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="main_8c.html" target="_top" xlink:title=" ">
+<g id="a_Node000004"><a xlink:href="main_8c.html" target="_top" xlink:title="Прога для комфортного кача с YouTube.">
 <polygon fill="white" stroke="#666666" points="201.25,-20.75 135,-20.75 135,0 201.25,0 201.25,-20.75"/>
 <text text-anchor="middle" x="168.12" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">src/main.c</text>
 </a>
