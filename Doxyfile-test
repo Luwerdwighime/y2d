@@ -16,6 +16,9 @@ EXTENSION_MAPPING      = .c=C .h=C
 FILE_PATTERNS          = *.c *.h
 RECURSIVE              = YES
 EXAMPLE_PATTERNS       = *.c *.h
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_METHODS  = YES
 
 GENERATE_HTML          = YES
 GENERATE_LATEX         = NO

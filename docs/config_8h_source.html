@@ -91,32 +91,32 @@ $(function(){ initResizable(false); });
   <div class="headertitle"><div class="title">config.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<a href="config_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define BUF_LEN 2048 </span><span class="comment">// 2Кб буффер под каждую строковую переменную (там url и команды с его участием, может быть много)</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="config_8h.html#a8b5839f71a3b6e7d64b2d5e9967e3dd1">    8</a></span><span class="preprocessor">#define BUF_LEN 2048 </span><span class="comment">// 2Кб буффер под каждую строковую переменную (там url и команды с его участием, может быть много)</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="comment">// Папки, пути, права</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#define DIR_RIGHTS  0755</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define VIDEO_DIR   &quot;/storage/emulated/0/Documents/tmp/video&quot;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define AUDIO_DIR   &quot;/storage/emulated/0/Documents/tmp/audio&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#define DRAY_DIR    &quot;/storage/emulated/0/Documents/usr/luwerdwighime/abok/&quot;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#define DRAY_LOG    &quot;dray_log.txt&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#define COOKIE_PATH &quot;/data/data/com.termux/files/home/cookies_y2d.txt&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="config_8h.html#aee94defa041502cb4198aa4a3ae55cb4">   11</a></span><span class="preprocessor">#define DIR_RIGHTS  0755</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="config_8h.html#ae2fe3014dd9c9a1fcf9a134285c1ec06">   12</a></span><span class="preprocessor">#define VIDEO_DIR   &quot;/storage/emulated/0/Documents/tmp/video&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno"><a class="line" href="config_8h.html#a8fe03454ee3781b4ed8126fa55a63ddf">   13</a></span><span class="preprocessor">#define AUDIO_DIR   &quot;/storage/emulated/0/Documents/tmp/audio&quot;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="config_8h.html#a24c16e348e954cf0c451a62d69f2d7f9">   14</a></span><span class="preprocessor">#define DRAY_DIR    &quot;/storage/emulated/0/Documents/usr/luwerdwighime/abok/&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="config_8h.html#a48952471541461534e1be278865d28f6">   15</a></span><span class="preprocessor">#define DRAY_LOG    &quot;dray_log.txt&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="config_8h.html#a69d169d0edb0fb9afae8a238d9dca58d">   16</a></span><span class="preprocessor">#define COOKIE_PATH &quot;/data/data/com.termux/files/home/cookies_y2d.txt&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// Опции для yt-dlp</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define YTIDS &quot;yt-dlp --get-id \&quot;%s\&quot;&quot; </span><span class="comment">// %s - это url</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#define YTCMD &quot;yt-dlp --no-check-formats %s -o \&quot;%s/%s\&quot; \&quot;%s\&quot;&quot; </span><span class="comment">// 4 %s будут подставлены (opts, out_dir, out_tmpl, url)</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#define MODE1 &quot;-f \&quot;bestvideo[height&lt;=480][vcodec=vp9]+bestaudio[acodec=opus]\&quot; --merge-output-format webm&quot;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define MODE2 &quot;-x --audio-format opus --audio-quality 128k --no-part --no-keep-video&quot;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define MODEP &quot;--yes-playlist&quot; </span><span class="comment">// Добавка про плейлисты (MODE3 и MODE4)</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#define FNAME &quot;%(title)s.%(ext)s&quot; </span><span class="comment">// Шаблон названия для одиночных файлов</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="preprocessor">#define PNAME &quot;%(playlist_title)s/%(playlist_index)05d_%(title)s.%(ext)s&quot; </span><span class="comment">// Шаблон названия для групп из плейлиста</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="preprocessor">#define RETR  3 </span><span class="comment">// Число попыток скачки</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="config_8h.html#a392cff0ee17d35cb112e75b2d95a5f72">   19</a></span><span class="preprocessor">#define YTIDS &quot;yt-dlp --get-id \&quot;%s\&quot;&quot; </span><span class="comment">// %s - это url</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="config_8h.html#a337cad666ff8bf855648871eae9bceb5">   20</a></span><span class="preprocessor">#define YTCMD &quot;yt-dlp --no-check-formats %s -o \&quot;%s/%s\&quot; \&quot;%s\&quot;&quot; </span><span class="comment">// 4 %s будут подставлены (opts, out_dir, out_tmpl, url)</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="config_8h.html#a443b1268c43b309560d57e34d50b5b3b">   21</a></span><span class="preprocessor">#define MODE1 &quot;-f \&quot;bestvideo[height&lt;=480][vcodec=vp9]+bestaudio[acodec=opus]\&quot; --merge-output-format webm&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="config_8h.html#ab2d8aca64e351712eae6f03e3f9d64ad">   22</a></span><span class="preprocessor">#define MODE2 &quot;-x --audio-format opus --audio-quality 128k --no-part --no-keep-video&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="config_8h.html#a63999987c65055e1e211b0a33dc215ef">   23</a></span><span class="preprocessor">#define MODEP &quot;--yes-playlist&quot; </span><span class="comment">// Добавка про плейлисты (MODE3 и MODE4)</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="config_8h.html#afd7feb39acd312085566c208e35c2362">   24</a></span><span class="preprocessor">#define FNAME &quot;%(title)s.%(ext)s&quot; </span><span class="comment">// Шаблон названия для одиночных файлов</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="config_8h.html#a32f9c2ab507d88084b1fd4a73046be61">   25</a></span><span class="preprocessor">#define PNAME &quot;%(playlist_title)s/%(playlist_index)05d_%(title)s.%(ext)s&quot; </span><span class="comment">// Шаблон названия для групп из плейлиста</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="config_8h.html#ad2d2d716502dc77aa1ac5c54b54d619a">   26</a></span><span class="preprocessor">#define RETR  3 </span><span class="comment">// Число попыток скачки</span></div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Документация по y2d. Последние изменения: Вт 20 Май 2025 03:12:40. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+Документация по y2d. Последние изменения: Вт 20 Май 2025 03:33:59. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
 </small></address>
 </div><!-- doc-content -->
 </body>

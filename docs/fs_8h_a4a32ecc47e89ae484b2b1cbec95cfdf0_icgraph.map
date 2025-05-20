@@ -1,0 +1,14 @@
+<map id="drayLogPath" name="drayLogPath">
+<area shape="rect" id="Node000001" title="Вычисляет путь к DRAY_LOG." alt="" coords="627,32,728,60"/>
+<area shape="rect" id="Node000002" href="$fs_8c.html#a65ecb49246f4d74a183116704b7968a0" title="Проверка, есть ли ID видео в логе" alt="" coords="417,5,579,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="611,39,579,34,579,29,612,33"/>
+<area shape="rect" id="Node000006" href="$fs_8c.html#ac7135dd56474a60b51b7121ced937914" title="Запись ID видео в лог" alt="" coords="446,57,550,85"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="612,58,550,67,549,61,611,52"/>
+<area shape="rect" id="Node000003" href="$yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7" title="Получение и обработка ID видео из плейлиста" alt="" coords="217,32,369,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="402,34,370,39,370,33,401,29"/>
+<area shape="rect" id="Node000004" href="$yt__dlp_8c.html#ad12a3554ed1a8bd9992ac6c7ae709bdd" title="Скачка url с запрошенным режимом" alt="" coords="108,32,169,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="201,48,169,48,169,43,201,43"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Прога для комфортного кача с YouTube." alt="" coords="5,32,60,60"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="92,48,60,48,60,43,92,43"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="431,66,370,58,370,53,431,60"/>
+</map>
