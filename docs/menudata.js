@@ -22,15 +22,5 @@
 
  @licend  The above is the entire license notice for the JavaScript code in this file
 */
-var NAVTREE =
-[
-  [ "y2d", "index.html", ]
-];
-
-var NAVTREEINDEX =
-[
-"index.html"
-];
-
-var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';
-var SYNCOFFMSG = 'нажмите на включить для синхронизации панелей';
+var menudata={children:[
+{text:"Титульная страница",url:"index.html"}]}
