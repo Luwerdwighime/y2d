@@ -1,0 +1,57 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = "y2d"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+OUTPUT_LANGUAGE        = Russian
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+ALWAYS_DETAILED_SEC    = NO
+INLINE_INHERITED_MEMB  = NO
+FULL_PATH_NAMES        = YES
+SHORT_NAMES            = NO
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+EXTENSION_MAPPING      = .c=C .h=C
+FILE_PATTERNS          = *.c *.h
+RECURSIVE              = YES
+EXAMPLE_PATTERNS       = *.c *.h
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
+GENERATE_XML           = NO
+GENERATE_DOCBOOK       = NO
+
+HTML_OUTPUT            = .
+HTML_FILE_EXTENSION    = .html
+#HTML_EXTRA_STYLESHEET  = css/doxygen-awesome.css
+#HTML_EXTRA_FILES       = css/doxygen-awesome.css
+HTML_COLORSTYLE_HUE    = 209
+HTML_COLORSTYLE_SAT    = 255
+HTML_COLORSTYLE_GAMMA  = 113
+HTML_TIMESTAMP         = YES
+HTML_DYNAMIC_SECTIONS  = YES
+
+DISABLE_INDEX          = YES
+GENERATE_TREEVIEW      = YES
+
+SEARCHENGINE           = YES
+SERVER_BASED_SEARCH    = NO
+
+MARKDOWN_SUPPORT       = YES
+
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+DOT_TRANSPARENT        = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = YES
+WARN_FORMAT            = "$file:$line: $text"
+
+

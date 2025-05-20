@@ -24,12 +24,16 @@
 */
 var NAVTREE =
 [
-  [ "y2d", "index.html", ]
+  [ "y2d", "index.html", [
+    [ "Файлы", "files.html", [
+      [ "Файлы", "files.html", "files_dup" ]
+    ] ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"config_8h_source.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';
