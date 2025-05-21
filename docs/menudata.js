@@ -24,6 +24,12 @@
 */
 var menudata={children:[
 {text:"Титульная страница",url:"index.html"},
+{text:"Структуры данных",url:"annotated.html",children:[
+{text:"Структуры данных",url:"annotated.html"},
+{text:"Алфавитный указатель структур данных",url:"classes.html"},
+{text:"Поля структур",url:"functions.html",children:[
+{text:"Указатель",url:"functions.html"},
+{text:"Переменные",url:"functions_vars.html"}]}]},
 {text:"Файлы",url:"files.html",children:[
 {text:"Файлы",url:"files.html"},
 {text:"Список членов всех файлов",url:"globals.html",children:[
@@ -32,8 +38,10 @@ var menudata={children:[
 {text:"b",url:"globals.html#index_b"},
 {text:"c",url:"globals.html#index_c"},
 {text:"d",url:"globals.html#index_d"},
+{text:"e",url:"globals.html#index_e"},
 {text:"f",url:"globals.html#index_f"},
 {text:"g",url:"globals.html#index_g"},
+{text:"h",url:"globals.html#index_h"},
 {text:"i",url:"globals.html#index_i"},
 {text:"l",url:"globals.html#index_l"},
 {text:"m",url:"globals.html#index_m"},

@@ -1,17 +1,15 @@
 <map id="yt_dlp" name="yt_dlp">
-<area shape="rect" id="Node000001" title="Скачка url с запрошенным режимом" alt="" coords="5,59,67,86"/>
-<area shape="rect" id="Node000002" href="$yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375" title="Подготавливает опции yt&#45;dlp под режим" alt="" coords="155,7,227,34"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,60,139,35,141,40,68,65"/>
-<area shape="rect" id="Node000003" href="$yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7" title="Получение и обработка ID видео из плейлиста" alt="" coords="115,59,267,86"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="67,70,99,70,99,75,67,75"/>
-<area shape="rect" id="Node000007" href="$yt__dlp_8c.html#ae0f89d7d0a43f9be78538dafce7b4e3a" title="Обёртка вокруг консольной команды yt&#45;dlp." alt="" coords="351,109,440,137"/>
-<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="68,81,115,95,232,112,336,119,335,124,232,117,114,100,66,87"/>
-<area shape="rect" id="Node000004" href="$fs_8c.html#a65ecb49246f4d74a183116704b7968a0" title="Проверка, есть ли ID видео в логе" alt="" coords="315,5,476,33"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="246,55,324,35,326,40,248,61"/>
-<area shape="rect" id="Node000006" href="$fs_8c.html#ac7135dd56474a60b51b7121ced937914" title="Запись ID видео в лог" alt="" coords="344,57,447,85"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="267,69,328,69,328,74,267,75"/>
-<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="250,84,337,106,336,111,249,89"/>
-<area shape="rect" id="Node000005" href="$fs_8c.html#a4a32ecc47e89ae484b2b1cbec95cfdf0" title="Вычисляет путь к DRAY_LOG." alt="" coords="524,32,626,60"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="477,29,509,33,509,39,476,34"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="447,61,509,52,510,58,448,67"/>
+<area shape="rect" id="Node000001" title="Скачка url с запрошенным режимом" alt="" coords="5,84,67,112"/>
+<area shape="rect" id="Node000002" href="$yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7" title="Получение и обработка ID видео из плейлиста" alt="" coords="115,59,267,86"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,90,99,85,100,90,67,96"/>
+<area shape="rect" id="Node000006" href="$yt__dlp_8c.html#ae0f89d7d0a43f9be78538dafce7b4e3a" title="Обёртка вокруг консольной команды yt&#45;dlp." alt="" coords="351,109,440,137"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="67,97,336,116,335,122,67,103"/>
+<area shape="rect" id="Node000003" href="$fs_8c.html#a65ecb49246f4d74a183116704b7968a0" title="Проверка, есть ли ID видео в логе" alt="" coords="315,5,476,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="246,55,324,35,326,40,248,61"/>
+<area shape="rect" id="Node000005" href="$fs_8c.html#ac7135dd56474a60b51b7121ced937914" title="Запись ID видео в лог" alt="" coords="344,57,447,85"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="267,69,328,69,328,74,267,75"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="250,84,337,106,336,111,249,89"/>
+<area shape="rect" id="Node000004" href="$fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42" title="Вычисляет путь к DRAY_LOG и копирует его в указатель" alt="" coords="524,32,626,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="477,29,509,33,509,39,476,34"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="447,61,509,52,510,58,448,67"/>
 </map>

@@ -1,26 +1,22 @@
 #include "yt_dlp.h"
 
-char* getOpts(char mode) {
-  char opts[BUF_LEN];
-  switch (mode) {
-    case '1': return MODE1;
-    case '2': return MODE2;
-    case '3':
-      snprintf(opts, BUF_LEN, "%s %s", MODE1, MODEP);
-      return opts;
-    case '4':
-      snprintf(opts, BUF_LEN, "%s %s", MODE2, MODEP);
-      return opts;
-    case '5': return MODE2;
-  }
-}
-
 void yt_dlp(char* url, char mode) {
+  // Определяем опции
+  char opts[BUF_LEN]; // Память под опции
   switch (mode) {
-    case '1': run_yt_dlp(url, getOpts(mode), VIDEO_DIR, FNAME); return;
-    case '2': run_yt_dlp(url, getOpts(mode), AUDIO_DIR, FNAME); return;
-    case '3': run_yt_dlp(url, getOpts(mode), VIDEO_DIR, PNAME); return;
-    case '4': run_yt_dlp(url, getOpts(mode), AUDIO_DIR, PNAME); return;
+    case '1': strcpy(opts, MODE1); break;
+    case '2': strcpy(opts, MODE2); break;
+    case '3': snprintf(opts, BUF_LEN, "%s %s", MODE1, MODEP); break;
+    case '4': snprintf(opts, BUF_LEN, "%s %s", MODE2, MODEP); break;
+    case '5': strcpy(opts, MODE2); break;
+  }
+
+  // Запускаемся с папками
+  switch (mode) {
+    case '1': run_yt_dlp(url, opts, VIDEO_DIR, FNAME); return;
+    case '2': run_yt_dlp(url, opts, AUDIO_DIR, FNAME); return;
+    case '3': run_yt_dlp(url, opts, VIDEO_DIR, PNAME); return;
+    case '4': run_yt_dlp(url, opts, AUDIO_DIR, PNAME); return;
     case '5': process_playlist_ids(url); return;
   }
 }
@@ -54,7 +50,7 @@ void process_playlist_ids(char *url) {
   FILE *fp = popen(cmd, "r");
   if (!fp) {
     perror("Ошибка получения ID видео");
-    exit(3); // Критический выход, возвращаем 3
+    exit(ERR_YTID); // Критический выход
   }
   char video_id[BUF_LEN]; // Память под id
   while (fgets(video_id, BUF_LEN, fp)) { // Читаем строки плейлиста

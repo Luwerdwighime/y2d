@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['log_5fvideo_5fid_0',['log_video_id',['../fs_8c.html#ac7135dd56474a60b51b7121ced937914',1,'log_video_id(char *video_id):&#160;fs.c'],['../fs_8h.html#ac7135dd56474a60b51b7121ced937914',1,'log_video_id(char *video_id):&#160;fs.c']]]
+  ['help_0',['help',['../user_8c.html#a97ee70a8770dc30d06c744b24eb2fcfc',1,'help():&#160;user.c'],['../user_8h.html#a97ee70a8770dc30d06c744b24eb2fcfc',1,'help():&#160;user.c']]]
 ];

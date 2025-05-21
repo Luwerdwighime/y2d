@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['getopts_0',['getOpts',['../yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375',1,'getOpts(char mode):&#160;yt_dlp.c'],['../yt__dlp_8h.html#a305bdfc3745e089080b81d7383a9e375',1,'getOpts(char mode):&#160;yt_dlp.c']]],
-  ['geturl_1',['getUrl',['../user_8c.html#affafc76072e99451fd0ed4d9798d82f9',1,'getUrl():&#160;user.c'],['../user_8h.html#affafc76072e99451fd0ed4d9798d82f9',1,'getUrl():&#160;user.c']]]
+  ['gettermopts_0',['getTermOpts',['../user_8c.html#a69a84096e4cee2cfde630466c3613075',1,'getTermOpts(int argc, char *argv[]):&#160;user.c'],['../user_8h.html#a69a84096e4cee2cfde630466c3613075',1,'getTermOpts(int argc, char *argv[]):&#160;user.c']]],
+  ['geturl_1',['getUrl',['../user_8c.html#a2177eed449119b221fef82c0ffb9784f',1,'getUrl(char *url):&#160;user.c'],['../user_8h.html#a2177eed449119b221fef82c0ffb9784f',1,'getUrl(char *url):&#160;user.c']]]
 ];

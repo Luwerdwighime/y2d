@@ -12,17 +12,17 @@
 <g id="Node000001" class="node">
 <title>Node1</title>
 <g id="a_Node000001"><a xlink:title="Скачка url с запрошенным режимом">
-<polygon fill="#999999" stroke="#666666" points="46,-58.75 0,-58.75 0,-38 46,-38 46,-58.75"/>
-<text text-anchor="middle" x="23" y="-45.25" font-family="Helvetica,sans-Serif" font-size="10.00">yt_dlp</text>
+<polygon fill="#999999" stroke="#666666" points="46,-39.75 0,-39.75 0,-19 46,-19 46,-39.75"/>
+<text text-anchor="middle" x="23" y="-26.25" font-family="Helvetica,sans-Serif" font-size="10.00">yt_dlp</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="yt__dlp_8c.html#a305bdfc3745e089080b81d7383a9e375" target="_top" xlink:title="Подготавливает опции yt&#45;dlp под режим">
-<polygon fill="white" stroke="#666666" points="166.25,-97.75 112,-97.75 112,-77 166.25,-77 166.25,-97.75"/>
-<text text-anchor="middle" x="139.12" y="-84.25" font-family="Helvetica,sans-Serif" font-size="10.00">getOpts</text>
+<g id="a_Node000002"><a xlink:href="yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7" target="_top" xlink:title="Получение и обработка ID видео из плейлиста">
+<polygon fill="white" stroke="#666666" points="196.25,-58.75 82,-58.75 82,-38 196.25,-38 196.25,-58.75"/>
+<text text-anchor="middle" x="139.12" y="-45.25" font-family="Helvetica,sans-Serif" font-size="10.00">process_playlist_ids</text>
 </a>
 </g>
 </g>
@@ -30,53 +30,80 @@
 <g id="edge1_Node000001_Node000002" class="edge">
 <title>Node1&#45;&gt;Node2</title>
 <g id="a_edge1_Node000001_Node000002"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M46.28,-55.99C61.85,-61.31 83.03,-68.55 101.12,-74.73"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="99.88,-78 110.47,-77.93 102.14,-71.38 99.88,-78"/>
+<path fill="none" stroke="#63b8ff" d="M46.28,-33.08C53.48,-34.28 61.89,-35.68 70.63,-37.14"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="69.88,-40.56 80.32,-38.75 71.03,-33.66 69.88,-40.56"/>
+</a>
+</g>
+</g>
+<!-- Node6 -->
+<g id="Node000006" class="node">
+<title>Node6</title>
+<g id="a_Node000006"><a xlink:href="yt__dlp_8c.html#ae0f89d7d0a43f9be78538dafce7b4e3a" target="_top" xlink:title="Обёртка вокруг консольной команды yt&#45;dlp.">
+<polygon fill="white" stroke="#666666" points="326.25,-20.75 259.25,-20.75 259.25,0 326.25,0 326.25,-20.75"/>
+<text text-anchor="middle" x="292.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">run_yt_dlp</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge7_Node000001_Node000006" class="edge">
+<title>Node1&#45;&gt;Node6</title>
+<g id="a_edge7_Node000001_Node000006"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M46.37,-27.79C90.58,-24.65 189.87,-17.6 247.68,-13.5"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="247.77,-17 257.5,-12.81 247.28,-10.02 247.77,-17"/>
 </a>
 </g>
 </g>
 <!-- Node3 -->
 <g id="Node000003" class="node">
 <title>Node3</title>
-<g id="a_Node000003"><a xlink:href="yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7" target="_top" xlink:title="Получение и обработка ID видео из плейлиста">
-<polygon fill="white" stroke="#666666" points="196.25,-58.75 82,-58.75 82,-38 196.25,-38 196.25,-58.75"/>
-<text text-anchor="middle" x="139.12" y="-45.25" font-family="Helvetica,sans-Serif" font-size="10.00">process_playlist_ids</text>
+<g id="a_Node000003"><a xlink:href="fs_8c.html#a65ecb49246f4d74a183116704b7968a0" target="_top" xlink:title="Проверка, есть ли ID видео в логе">
+<polygon fill="white" stroke="#666666" points="353.25,-98.75 232.25,-98.75 232.25,-78 353.25,-78 353.25,-98.75"/>
+<text text-anchor="middle" x="292.75" y="-85.25" font-family="Helvetica,sans-Serif" font-size="10.00">is_video_downloaded</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node3 -->
-<g id="edge2_Node000001_Node000003" class="edge">
-<title>Node1&#45;&gt;Node3</title>
-<g id="a_edge2_Node000001_Node000003"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M46.28,-48.38C53.4,-48.38 61.7,-48.38 70.34,-48.38"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="70.3,-51.88 80.3,-48.38 70.3,-44.88 70.3,-51.88"/>
+<!-- Node2&#45;&gt;Node3 -->
+<g id="edge2_Node000002_Node000003" class="edge">
+<title>Node2&#45;&gt;Node3</title>
+<g id="a_edge2_Node000002_Node000003"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M181.16,-59.2C199.19,-63.96 220.58,-69.6 239.72,-74.65"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="238.66,-77.99 249.22,-77.16 240.45,-71.22 238.66,-77.99"/>
 </a>
 </g>
 </g>
-<!-- Node7 -->
-<g id="Node000007" class="node">
-<title>Node7</title>
-<g id="a_Node000007"><a xlink:href="yt__dlp_8c.html#ae0f89d7d0a43f9be78538dafce7b4e3a" target="_top" xlink:title="Обёртка вокруг консольной команды yt&#45;dlp.">
-<polygon fill="white" stroke="#666666" points="326.25,-20.75 259.25,-20.75 259.25,0 326.25,0 326.25,-20.75"/>
-<text text-anchor="middle" x="292.75" y="-7.25" font-family="Helvetica,sans-Serif" font-size="10.00">run_yt_dlp</text>
+<!-- Node5 -->
+<g id="Node000005" class="node">
+<title>Node5</title>
+<g id="a_Node000005"><a xlink:href="fs_8c.html#ac7135dd56474a60b51b7121ced937914" target="_top" xlink:title="Запись ID видео в лог">
+<polygon fill="white" stroke="#666666" points="331.5,-59.75 254,-59.75 254,-39 331.5,-39 331.5,-59.75"/>
+<text text-anchor="middle" x="292.75" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">log_video_id</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node7 -->
-<g id="edge8_Node000001_Node000007" class="edge">
-<title>Node1&#45;&gt;Node7</title>
-<g id="a_edge8_Node000001_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M46.27,-39.77C56.92,-35.99 69.96,-31.86 82,-29.38 138.46,-17.73 204.94,-13.22 247.68,-11.48"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="247.7,-14.98 257.57,-11.11 247.44,-7.98 247.7,-14.98"/>
+<!-- Node2&#45;&gt;Node5 -->
+<g id="edge4_Node000002_Node000005" class="edge">
+<title>Node2&#45;&gt;Node5</title>
+<g id="a_edge4_Node000002_Node000005"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M196.58,-48.75C211.6,-48.85 227.7,-48.95 242.31,-49.05"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="242.12,-52.55 252.14,-49.11 242.16,-45.55 242.12,-52.55"/>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node6 -->
+<g id="edge6_Node000002_Node000006" class="edge">
+<title>Node2&#45;&gt;Node6</title>
+<g id="a_edge6_Node000002_Node000006"><a xlink:title=" ">
+<path fill="none" stroke="#63b8ff" d="M183.17,-37.59C203.56,-32.48 227.86,-26.39 248.3,-21.26"/>
+<polygon fill="#63b8ff" stroke="#63b8ff" points="248.89,-24.72 257.74,-18.9 247.19,-17.93 248.89,-24.72"/>
 </a>
 </g>
 </g>
 <!-- Node4 -->
 <g id="Node000004" class="node">
 <title>Node4</title>
-<g id="a_Node000004"><a xlink:href="fs_8c.html#a65ecb49246f4d74a183116704b7968a0" target="_top" xlink:title="Проверка, есть ли ID видео в логе">
-<polygon fill="white" stroke="#666666" points="353.25,-98.75 232.25,-98.75 232.25,-78 353.25,-78 353.25,-98.75"/>
-<text text-anchor="middle" x="292.75" y="-85.25" font-family="Helvetica,sans-Serif" font-size="10.00">is_video_downloaded</text>
+<g id="a_Node000004"><a xlink:href="fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42" target="_top" xlink:title="Вычисляет путь к DRAY_LOG и копирует его в указатель">
+<polygon fill="white" stroke="#666666" points="465.25,-78.75 389.25,-78.75 389.25,-58 465.25,-58 465.25,-78.75"/>
+<text text-anchor="middle" x="427.25" y="-65.25" font-family="Helvetica,sans-Serif" font-size="10.00">drayLogPath</text>
 </a>
 </g>
 </g>
@@ -84,60 +111,15 @@
 <g id="edge3_Node000003_Node000004" class="edge">
 <title>Node3&#45;&gt;Node4</title>
 <g id="a_edge3_Node000003_Node000004"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M181.16,-59.2C199.19,-63.96 220.58,-69.6 239.72,-74.65"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="238.66,-77.99 249.22,-77.16 240.45,-71.22 238.66,-77.99"/>
-</a>
-</g>
-</g>
-<!-- Node6 -->
-<g id="Node000006" class="node">
-<title>Node6</title>
-<g id="a_Node000006"><a xlink:href="fs_8c.html#ac7135dd56474a60b51b7121ced937914" target="_top" xlink:title="Запись ID видео в лог">
-<polygon fill="white" stroke="#666666" points="331.5,-59.75 254,-59.75 254,-39 331.5,-39 331.5,-59.75"/>
-<text text-anchor="middle" x="292.75" y="-46.25" font-family="Helvetica,sans-Serif" font-size="10.00">log_video_id</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node6 -->
-<g id="edge5_Node000003_Node000006" class="edge">
-<title>Node3&#45;&gt;Node6</title>
-<g id="a_edge5_Node000003_Node000006"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M196.58,-48.75C211.6,-48.85 227.7,-48.95 242.31,-49.05"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="242.12,-52.55 252.14,-49.11 242.16,-45.55 242.12,-52.55"/>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node7 -->
-<g id="edge7_Node000003_Node000007" class="edge">
-<title>Node3&#45;&gt;Node7</title>
-<g id="a_edge7_Node000003_Node000007"><a xlink:title=" ">
-<path fill="none" stroke="#63b8ff" d="M183.17,-37.59C203.56,-32.48 227.86,-26.39 248.3,-21.26"/>
-<polygon fill="#63b8ff" stroke="#63b8ff" points="248.89,-24.72 257.74,-18.9 247.19,-17.93 248.89,-24.72"/>
-</a>
-</g>
-</g>
-<!-- Node5 -->
-<g id="Node000005" class="node">
-<title>Node5</title>
-<g id="a_Node000005"><a xlink:href="fs_8c.html#a4a32ecc47e89ae484b2b1cbec95cfdf0" target="_top" xlink:title="Вычисляет путь к DRAY_LOG.">
-<polygon fill="white" stroke="#666666" points="465.25,-78.75 389.25,-78.75 389.25,-58 465.25,-58 465.25,-78.75"/>
-<text text-anchor="middle" x="427.25" y="-65.25" font-family="Helvetica,sans-Serif" font-size="10.00">drayLogPath</text>
-</a>
-</g>
-</g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4_Node000004_Node000005" class="edge">
-<title>Node4&#45;&gt;Node5</title>
-<g id="a_edge4_Node000004_Node000005"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M353.41,-79.37C361.53,-78.14 369.79,-76.9 377.68,-75.71"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="378.07,-79.19 387.44,-74.23 377.03,-72.27 378.07,-79.19"/>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node5 -->
-<g id="edge6_Node000006_Node000005" class="edge">
-<title>Node6&#45;&gt;Node5</title>
-<g id="a_edge6_Node000006_Node000005"><a xlink:title=" ">
+<!-- Node5&#45;&gt;Node4 -->
+<g id="edge5_Node000005_Node000004" class="edge">
+<title>Node5&#45;&gt;Node4</title>
+<g id="a_edge5_Node000005_Node000004"><a xlink:title=" ">
 <path fill="none" stroke="#63b8ff" d="M331.72,-54.82C346.1,-56.88 362.67,-59.26 377.88,-61.44"/>
 <polygon fill="#63b8ff" stroke="#63b8ff" points="377.3,-64.89 387.69,-62.85 378.29,-57.96 377.3,-64.89"/>
 </a>

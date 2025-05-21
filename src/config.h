@@ -26,3 +26,8 @@
 #define PNAME "%(playlist_title)s/%(playlist_index)05d_%(title)s.%(ext)s" // Шаблон названия для групп из плейлиста
 #define RETR  3 // Число попыток скачки
 
+// Коды ошибок, которые мы возвращаем в консоль
+#define ERR_OPTS    1
+#define ERR_DIR     2
+#define ERR_DRAYLOG 3
+#define ERR_YTID    4

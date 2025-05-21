@@ -6,18 +6,10 @@
 #pragma once
 #include <stdio.h>  // Для printf(), snprintf(), popen(), perror()
 #include <stdlib.h> // Для system()
-#include <string.h> // Для strcspn()
+#include <string.h> // Для strcpy(), strcspn()
 #include <unistd.h> // Для sleep()
 #include "fs.h"     // Для is_video_downloaded()
 #include "config.h" // Конфигурация
-
-/**
- * @brief Подготавливает опции yt-dlp под режим
- *
- * @param mode Один из пяти режимов работы, букво-цифрами от '1' до '5'
- * @return строка параметров yt-dlp
- */
-char* getOpts(char mode);
 
 /**
  * @brief Скачка url с запрошенным режимом

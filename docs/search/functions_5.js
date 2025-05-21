@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['process_5fplaylist_5fids_0',['process_playlist_ids',['../yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7',1,'process_playlist_ids(char *url):&#160;yt_dlp.c'],['../yt__dlp_8h.html#aac411bed2012a2feac84bce1d514d1c7',1,'process_playlist_ids(char *url):&#160;yt_dlp.c']]]
+  ['main_0',['main',['../main_8c.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.c']]],
+  ['menu_1',['menu',['../user_8c.html#a22e29e963f6ee6c7281bfd2e401d4793',1,'menu(char *mode):&#160;user.c'],['../user_8h.html#a22e29e963f6ee6c7281bfd2e401d4793',1,'menu(char *mode):&#160;user.c']]],
+  ['mkdir_5fp_2',['mkdir_p',['../fs_8c.html#ad434ffce2667f992ccfb4b3c200ecd0d',1,'mkdir_p(char *path):&#160;fs.c'],['../fs_8h.html#ad434ffce2667f992ccfb4b3c200ecd0d',1,'mkdir_p(char *path):&#160;fs.c']]]
 ];

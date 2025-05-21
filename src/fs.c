@@ -7,9 +7,9 @@ void mkdir_p(char *path) {
   // Анализируем ошибку, если err не 0, то ошибка не должна быть
   // "file exist", иначе это нормальное поведение
   if (err && errno != EEXIST) {
-    perror("Ошибка создания директории: ");
+    perror("Ошибка создания директории");
     perror(path); // Покажем юзеру путь ошибки
-    exit(1); // Критический выход, возвращаем 1
+    exit(ERR_DIR); // Критический выход
   }
 }
 
@@ -19,18 +19,17 @@ void initDirs() {
   mkdir_p(DRAY_DIR);
 }
 
-char* drayLogPath() {
-  char path[BUF_LEN];
+void drayLogPath(char* path) {
   snprintf(path, BUF_LEN, "%s/%s", DRAY_DIR, DRAY_LOG);
-  return path;
 }
 
 void log_video_id(char *video_id) {
-  // Открываем лог
-  FILE *log = fopen(drayLogPath(), "a");
+  char path[BUF_LEN]; // Память под путь
+  drayLogPath(path); // Вычисление пути
+  FILE *log = fopen(path, "a"); // Открываем лог
   if (!log) {
     perror("Ошибка открытия и создания лога Дмитрия Рея");
-    exit(2); // Критический выход, возвращаем 2
+    exit(ERR_DRAYLOG); // Критический выход
   }
 
   fprintf(log, "%s\n", video_id); // Пишем
@@ -38,8 +37,9 @@ void log_video_id(char *video_id) {
 }
 
 int is_video_downloaded(char *video_id) {
-  // Открываем лог
-  FILE *log = fopen(drayLogPath(), "r");
+  char path[BUF_LEN]; // Память под путь
+  drayLogPath(path); // Вычисление пути
+  FILE *log = fopen(path, "r"); // Открываем лог
   if (!log) return 0; // Лог не существует, считаем, что видео не скачано
 
   char line[BUF_LEN]; // Память под строчку из лога

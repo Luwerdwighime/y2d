@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['yt_5fdlp_0',['yt_dlp',['../yt__dlp_8c.html#ad12a3554ed1a8bd9992ac6c7ae709bdd',1,'yt_dlp(char *url, char mode):&#160;yt_dlp.c'],['../yt__dlp_8h.html#ad12a3554ed1a8bd9992ac6c7ae709bdd',1,'yt_dlp(char *url, char mode):&#160;yt_dlp.c']]],
-  ['yt_5fdlp_2ec_1',['yt_dlp.c',['../yt__dlp_8c.html',1,'']]],
-  ['yt_5fdlp_2eh_2',['yt_dlp.h',['../yt__dlp_8h.html',1,'']]],
-  ['ytcmd_3',['YTCMD',['../config_8h.html#a337cad666ff8bf855648871eae9bceb5',1,'config.h']]],
-  ['ytids_4',['YTIDS',['../config_8h.html#a392cff0ee17d35cb112e75b2d95a5f72',1,'config.h']]]
+  ['retr_0',['RETR',['../config_8h.html#ad2d2d716502dc77aa1ac5c54b54d619a',1,'config.h']]],
+  ['run_5fyt_5fdlp_1',['run_yt_dlp',['../yt__dlp_8c.html#ae0f89d7d0a43f9be78538dafce7b4e3a',1,'run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl):&#160;yt_dlp.c'],['../yt__dlp_8h.html#ae0f89d7d0a43f9be78538dafce7b4e3a',1,'run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl):&#160;yt_dlp.c']]]
 ];

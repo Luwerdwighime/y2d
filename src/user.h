@@ -4,20 +4,44 @@
  */
 
 #pragma once
-#include <stdio.h>  // Для getchar(), fgets()
-#include "config.h" // Конфигурация
+#include <getopt.h>  // Для getopt_long()
+#include <stdbool.h> // Для типа bool
+#include <stdio.h>   // Для getchar(), fgets(), printf()
+#include <string.h>  // Для strcpy()
+#include "config.h"  // Конфигурация
 
 /**
- * @brief Показывает главное меню
- *
- * @return Символ юзерского выбора
+ * @brief Структура для опций командной строки
  */
-char menu();
+typedef struct {
+  bool bug;  // Флаг встречи бага при анализе
+  char mode; // Режим работы
+  char* url; // URL
+} Options;
 
 /**
- * @brief Вытряхивает url с юзера
+ * @brief Анализирует опции командной строки
  *
- * @return Строка юзерского ввода
+ * @return Структура с опциями
  */
-char* getUrl();
+Options getTermOpts(int argc, char *argv[]);
+
+/**
+ * @brief Показывает главное меню и копирует выбор юзера в указатель
+ *
+ * @param mode Указатель на символ выбранного режима
+ */
+void menu(char* mode);
+
+/**
+ * @brief Вытряхивает url с юзера и сохраняет его в указатель
+ *
+ * @param url Указатель на URL
+ */
+void getUrl(char* url);
+
+/**
+ * @brief Выводит хэлп
+ */
+void help();
 

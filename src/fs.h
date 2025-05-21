@@ -26,11 +26,11 @@ void mkdir_p(char *path);
 void initDirs();
 
 /**
- * @brief Вычисляет путь к DRAY_LOG
+ * @brief Вычисляет путь к DRAY_LOG и копирует его в указатель
  *
- * @return Путь к DRAY_LOG
+ * @param path Указатель на полный путь к DRAY_LOG
  */
-char* drayLogPath();
+void drayLogPath(char* path);
 
 /**
  * @brief Запись ID видео в лог
