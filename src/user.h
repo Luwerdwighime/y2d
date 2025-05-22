@@ -8,7 +8,7 @@
 #include <stdbool.h> // Для типа bool
 #include <stdio.h>   // Для getchar(), fgets(), printf()
 #include <string.h>  // Для strcspn(), strcpy()
-#include "config.h"  // Конфигурация
+#include "config.h"  // Константы
 
 /**
  * @brief Структура для опций командной строки

@@ -2,7 +2,7 @@
 
 void mkdir_p(char *path) {
   // Просим у ядра создать папку
-  int err = mkdir(path, DIR_RIGHTS);
+  int err = mkdir(path, config.fsDir_rights);
 
   // Анализируем ошибку, если err не 0, то ошибка не должна быть
   // "file exist", иначе это нормальное поведение
@@ -14,13 +14,16 @@ void mkdir_p(char *path) {
 }
 
 void initDirs() {
-  mkdir_p(VIDEO_DIR);
-  mkdir_p(AUDIO_DIR);
-  mkdir_p(DRAY_DIR);
+  mkdir_p(config.fsVideo_dir);
+  mkdir_p(config.fsAudio_dir);
+  mkdir_p(config.fsDray_dir);
 }
 
 void drayLogPath(char* path) {
-  snprintf(path, BUF_LEN, "%s/%s", DRAY_DIR, DRAY_LOG);
+  snprintf(
+    path, BUF_LEN, "%s/%s",
+    config.fsDray_dir, config.fsDray_log
+  );
 }
 
 void log_video_id(char *video_id) {
@@ -45,7 +48,7 @@ int is_video_downloaded(char *video_id) {
   char line[BUF_LEN]; // Память под строчку из лога
   // Читаем в line построчечно, пока fgets() не вернёт EOF
   while (fgets(line, BUF_LEN, log)) {
-    line[strcspn(line, "\n")] = '\0'; // Отбрасываем всё за первым \n включительно
+    line[strcspn(line, "\n")] = '\0'; // Отбрасываем \n
     if (strcmp(line, video_id) == 0) { // Нашли!
       fclose(log); // Закрываем лог
       return 1; // Видео уже скачано

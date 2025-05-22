@@ -4,14 +4,13 @@
  */
 
 #pragma once
-#include <errno.h>    // Для errno и EEXIST
+#include <errno.h>    // Для errno, EEXIST
 #include <stdio.h>    // Для perror(), FILE, fopen(), fclose(), fprintf(), snprintf()
 #include <stdlib.h>   // Для exit()
 #include <string.h>   // Для strcspn(), strcmp()
 #include <sys/stat.h> // Для mkdir()
-
-
-#include "config.h"   // Конфигурация
+#include "cfg.h"      // Для config
+#include "config.h"   // Константы
 
 /**
  * @brief Создаёт папку, если её ещё нет

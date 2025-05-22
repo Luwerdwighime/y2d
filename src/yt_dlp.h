@@ -8,8 +8,9 @@
 #include <stdlib.h> // Для system()
 #include <string.h> // Для strcpy(), strcspn()
 #include <unistd.h> // Для sleep()
+#include "cfg.h"    // Для config
+#include "config.h" // Константы
 #include "fs.h"     // Для is_video_downloaded()
-#include "config.h" // Конфигурация
 
 /**
  * @brief Скачка url с запрошенным режимом
