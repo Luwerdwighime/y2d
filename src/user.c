@@ -72,6 +72,7 @@ void getUrl(char* url) {
     printf("Вставь ссылку: ");
     // Читаем из stdin не больше нашего буффера
     if (fgets(newUrl, BUF_LEN, stdin)) { // Если не NULL, то успешно
+      newUrl[strcspn(newUrl, "\n")] = '\0'; // Отбрасываем \n
       strcpy(url, newUrl); // Сохраняем
       return; // Покидаем цикл
     }

@@ -7,7 +7,7 @@
 #include <getopt.h>  // Для getopt_long()
 #include <stdbool.h> // Для типа bool
 #include <stdio.h>   // Для getchar(), fgets(), printf()
-#include <string.h>  // Для strcpy()
+#include <string.h>  // Для strcspn(), strcpy()
 #include "config.h"  // Конфигурация
 
 /**
