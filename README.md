@@ -25,6 +25,9 @@ git clone git@github.com:Luwerdwighime/y2d.git
 cd y2d
 ./build.sh
 
+```
+
+```shell
 # Если хочется ещё и HTML документацию, то:
 pkg install doxygen
 ./docs.sh
