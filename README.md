@@ -20,7 +20,7 @@ y2d [-c|--config] [-h|--help] [РЕЖИМ] [URL]
 
 ## Сборка в Termux
 ```shell
-pkg install cmake gcc yt-dlp
+pkg install cmake gcc-default yt-dlp
 git clone git@github.com:Luwerdwighime/y2d.git
 cd y2d
 ./build.sh
