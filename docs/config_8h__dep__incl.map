@@ -1,21 +1,28 @@
 <map id="src/config.h" name="src/config.h">
-<area shape="rect" id="Node000001" title="Конфигурация" alt="" coords="195,5,290,33"/>
-<area shape="rect" id="Node000002" href="$fs_8h.html" title="Модуль для работы с файловой системой" alt="" coords="149,81,217,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,47,196,82,191,79,220,44"/>
-<area shape="rect" id="Node000004" href="$main_8c.html" title="Прога для комфортного кача с YouTube." alt="" coords="211,232,299,260"/>
-<area shape="poly" id="edge7_Node000001_Node000004" title=" " alt="" coords="247,48,257,232,251,232,242,48"/>
-<area shape="rect" id="Node000005" href="$yt__dlp_8h.html" title="Модуль для работы с yt&#45;dlp." alt="" coords="5,157,102,184"/>
-<area shape="poly" id="edge11_Node000001_Node000005" title=" " alt="" coords="203,43,170,61,138,83,96,122,66,158,62,154,92,118,134,79,167,57,200,38"/>
-<area shape="rect" id="Node000007" href="$user_8h.html" title="Модуль для работы с юзером" alt="" coords="317,81,400,109"/>
-<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="278,39,340,78,337,83,275,44"/>
-<area shape="rect" id="Node000003" href="$fs_8c.html" title=" " alt="" coords="125,157,192,184"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="176,125,166,157,161,155,171,123"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="198,121,251,231,246,233,193,123"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="148,119,78,159,75,154,145,114"/>
-<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="104,187,220,229,218,234,103,192"/>
-<area shape="rect" id="Node000006" href="$yt__dlp_8c.html" title=" " alt="" coords="6,232,101,260"/>
-<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="56,200,56,232,51,232,51,200"/>
-<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="344,123,301,186,267,233,262,230,297,183,340,120"/>
-<area shape="rect" id="Node000008" href="$user_8c.html" title=" " alt="" coords="368,157,451,184"/>
-<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="379,120,403,155,398,158,374,123"/>
+<area shape="rect" id="Node000001" title="Константы" alt="" coords="203,5,298,33"/>
+<area shape="rect" id="Node000002" href="$cfg_8h.html" title="Анализирует конфигурацию в config.ini." alt="" coords="213,81,289,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="254,49,254,81,248,81,248,49"/>
+<area shape="rect" id="Node000004" href="$fs_8h.html" title="Модуль для работы с файловой системой" alt="" coords="142,157,210,184"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="229,46,203,82,188,122,180,157,175,156,183,121,198,80,224,43"/>
+<area shape="rect" id="Node000006" href="$main_8c.html" title="Прога для комфортного кача с YouTube." alt="" coords="236,308,324,336"/>
+<area shape="poly" id="edge12_Node000001_Node000006" title=" " alt="" coords="283,41,333,89,358,121,376,156,381,179,378,202,370,225,358,246,328,283,299,310,295,306,324,279,354,243,366,223,373,201,375,179,371,158,353,123,330,92,279,45"/>
+<area shape="rect" id="Node000007" href="$yt__dlp_8h.html" title="Модуль для работы с yt&#45;dlp." alt="" coords="5,232,102,260"/>
+<area shape="poly" id="edge16_Node000001_Node000007" title=" " alt="" coords="221,45,160,93,128,124,98,158,75,198,60,233,55,231,70,195,94,155,124,121,157,89,217,40"/>
+<area shape="rect" id="Node000009" href="$user_8h.html" title="Модуль для работы с юзером" alt="" coords="436,81,519,109"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="306,36,438,78,436,83,305,41"/>
+<area shape="rect" id="Node000003" href="$cfg_8c.html" title=" " alt="" coords="286,157,362,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="277,118,313,154,309,158,273,122"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="228,122,191,158,188,154,225,118"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="257,123,281,307,276,308,252,124"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="203,118,167,136,131,159,92,198,64,234,60,230,88,194,128,155,164,131,201,113"/>
+<area shape="rect" id="Node000005" href="$fs_8c.html" title=" " alt="" coords="125,232,192,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="172,200,164,233,159,231,167,199"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="196,196,273,306,269,309,192,199"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="143,195,77,234,74,230,140,190"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="109,263,240,305,239,310,107,268"/>
+<area shape="rect" id="Node000008" href="$yt__dlp_8c.html" title=" " alt="" coords="6,308,101,336"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="56,276,56,308,51,308,51,276"/>
+<area shape="poly" id="edge14_Node000009_Node000006" title=" " alt="" coords="477,124,460,192,443,229,419,262,398,280,374,294,325,313,324,308,372,290,395,276,416,258,438,226,455,190,472,123"/>
+<area shape="rect" id="Node000010" href="$user_8c.html" title=" " alt="" coords="487,157,569,184"/>
+<area shape="poly" id="edge15_Node000009_Node000010" title=" " alt="" coords="497,120,521,155,517,158,493,123"/>
 </map>

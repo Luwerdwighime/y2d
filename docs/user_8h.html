@@ -89,7 +89,6 @@ $(function(){ initResizable(false); });
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Структуры данных</a> &#124;
 <a href="#func-members">Функции</a>  </div>
   <div class="headertitle"><div class="title">Файл user.h</div></div>
 </div><!--header-->
@@ -97,9 +96,8 @@ $(function(){ initResizable(false); });
 
 <p>Модуль для работы с юзером  
 <a href="#details">Подробнее...</a></p>
-<div class="textblock"><code>#include &lt;getopt.h&gt;</code><br />
-<code>#include &lt;stdbool.h&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="config_8h_source.html">config.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -107,7 +105,7 @@ $(function(){ initResizable(false); });
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h__incl.svg" width="472" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h__incl.svg" width="362" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Граф файлов, в которые включается этот файл:</div>
@@ -119,23 +117,14 @@ $(function(){ initResizable(false); });
 </div>
 <p><a href="user_8h_source.html">См. исходные тексты.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Структуры данных</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structOptions.html">Options</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Структура для опций командной строки  <a href="structOptions.html#details">Подробнее...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Функции</h2></td></tr>
-<tr class="memitem:a69a84096e4cee2cfde630466c3613075" id="r_a69a84096e4cee2cfde630466c3613075"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structOptions.html">Options</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69a84096e4cee2cfde630466c3613075">getTermOpts</a> (int argc, char *argv[])</td></tr>
-<tr class="memdesc:a69a84096e4cee2cfde630466c3613075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Анализирует опции командной строки  <br /></td></tr>
-<tr class="separator:a69a84096e4cee2cfde630466c3613075"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e29e963f6ee6c7281bfd2e401d4793" id="r_a22e29e963f6ee6c7281bfd2e401d4793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22e29e963f6ee6c7281bfd2e401d4793">menu</a> (char *mode)</td></tr>
-<tr class="memdesc:a22e29e963f6ee6c7281bfd2e401d4793"><td class="mdescLeft">&#160;</td><td class="mdescRight">Показывает главное меню и копирует выбор юзера в указатель  <br /></td></tr>
-<tr class="separator:a22e29e963f6ee6c7281bfd2e401d4793"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2177eed449119b221fef82c0ffb9784f" id="r_a2177eed449119b221fef82c0ffb9784f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2177eed449119b221fef82c0ffb9784f">getUrl</a> (char *url)</td></tr>
-<tr class="memdesc:a2177eed449119b221fef82c0ffb9784f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вытряхивает url с юзера и сохраняет его в указатель  <br /></td></tr>
-<tr class="separator:a2177eed449119b221fef82c0ffb9784f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ba0075fa588e1e916fae184c13aedb2" id="r_a6ba0075fa588e1e916fae184c13aedb2"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba0075fa588e1e916fae184c13aedb2">menu</a> ()</td></tr>
+<tr class="memdesc:a6ba0075fa588e1e916fae184c13aedb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Показывает главное меню и копирует выбор юзера в указатель  <br /></td></tr>
+<tr class="separator:a6ba0075fa588e1e916fae184c13aedb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affafc76072e99451fd0ed4d9798d82f9" id="r_affafc76072e99451fd0ed4d9798d82f9"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affafc76072e99451fd0ed4d9798d82f9">getUrl</a> ()</td></tr>
+<tr class="memdesc:affafc76072e99451fd0ed4d9798d82f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вытряхивает url с юзера и сохраняет его в указатель  <br /></td></tr>
+<tr class="separator:affafc76072e99451fd0ed4d9798d82f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97ee70a8770dc30d06c744b24eb2fcfc" id="r_a97ee70a8770dc30d06c744b24eb2fcfc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97ee70a8770dc30d06c744b24eb2fcfc">help</a> ()</td></tr>
 <tr class="memdesc:a97ee70a8770dc30d06c744b24eb2fcfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выводит хэлп  <br /></td></tr>
 <tr class="separator:a97ee70a8770dc30d06c744b24eb2fcfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,65 +132,29 @@ $(function(){ initResizable(false); });
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
 <div class="textblock"><p>Модуль для работы с юзером </p>
 </div><h2 class="groupheader">Функции</h2>
-<a id="a69a84096e4cee2cfde630466c3613075" name="a69a84096e4cee2cfde630466c3613075"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69a84096e4cee2cfde630466c3613075">&#9670;&#160;</a></span>getTermOpts()</h2>
+<a id="affafc76072e99451fd0ed4d9798d82f9" name="affafc76072e99451fd0ed4d9798d82f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affafc76072e99451fd0ed4d9798d82f9">&#9670;&#160;</a></span>getUrl()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structOptions.html">Options</a> getTermOpts </td>
+          <td class="memname">char * getUrl </td>
           <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>argc</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>argv</em></span>[]&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Анализирует опции командной строки </p>
-<dl class="section return"><dt>Возвращает</dt><dd>Структура с опциями </dd></dl>
-<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h_a69a84096e4cee2cfde630466c3613075_icgraph.svg" width="218" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<a id="a2177eed449119b221fef82c0ffb9784f" name="a2177eed449119b221fef82c0ffb9784f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2177eed449119b221fef82c0ffb9784f">&#9670;&#160;</a></span>getUrl()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void getUrl </td>
-          <td>(</td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>url</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Вытряхивает url с юзера и сохраняет его в указатель </p>
-<dl class="params"><dt>Аргументы</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">url</td><td>Указатель на URL </td></tr>
-  </table>
-  </dd>
-</dl>
-<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<dl class="section return"><dt>Возвращает</dt><dd>Указатель на URL </dd></dl>
+<div id="dynsection-2" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h_a2177eed449119b221fef82c0ffb9784f_icgraph.svg" width="175" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h_affafc76072e99451fd0ed4d9798d82f9_icgraph.svg" width="175" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -222,44 +175,39 @@ $(function(){ initResizable(false); });
 </div><div class="memdoc">
 
 <p>Выводит хэлп </p>
-<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-3" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="user_8h_a97ee70a8770dc30d06c744b24eb2fcfc_icgraph.svg" width="163" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
 </div>
-<a id="a22e29e963f6ee6c7281bfd2e401d4793" name="a22e29e963f6ee6c7281bfd2e401d4793"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22e29e963f6ee6c7281bfd2e401d4793">&#9670;&#160;</a></span>menu()</h2>
+<a id="a6ba0075fa588e1e916fae184c13aedb2" name="a6ba0075fa588e1e916fae184c13aedb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ba0075fa588e1e916fae184c13aedb2">&#9670;&#160;</a></span>menu()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void menu </td>
+          <td class="memname">char menu </td>
           <td>(</td>
-          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Показывает главное меню и копирует выбор юзера в указатель </p>
-<dl class="params"><dt>Аргументы</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mode</td><td>Указатель на символ выбранного режима </td></tr>
-  </table>
-  </dd>
-</dl>
-<div id="dynsection-5" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<dl class="section return"><dt>Возвращает</dt><dd>Символ выбранного режима </dd></dl>
+<div id="dynsection-4" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Граф вызова функции:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h_a22e29e963f6ee6c7281bfd2e401d4793_icgraph.svg" width="172" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="user_8h_a6ba0075fa588e1e916fae184c13aedb2_icgraph.svg" width="172" height="39"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -267,7 +215,7 @@ $(function(){ initResizable(false); });
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Документация по y2d. Последние изменения: Ср 21 Май 2025 07:23:13. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+Документация по y2d. Последние изменения: Пт 23 Май 2025 08:30:53. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
 </small></address>
 </div><!-- doc-content -->
 </body>

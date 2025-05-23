@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['dir_5frights_0',['DIR_RIGHTS',['../config_8h.html#aee94defa041502cb4198aa4a3ae55cb4',1,'config.h']]],
-  ['dray_5fdir_1',['DRAY_DIR',['../config_8h.html#a24c16e348e954cf0c451a62d69f2d7f9',1,'config.h']]],
-  ['dray_5flog_2',['DRAY_LOG',['../config_8h.html#a48952471541461534e1be278865d28f6',1,'config.h']]],
-  ['draylogpath_3',['drayLogPath',['../fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42',1,'drayLogPath(char *path):&#160;fs.c'],['../fs_8h.html#a19ed4f16202168c3c0808762ce2fdf42',1,'drayLogPath(char *path):&#160;fs.c']]]
+  ['draylogpath_0',['drayLogPath',['../fs_8c.html#a4a32ecc47e89ae484b2b1cbec95cfdf0',1,'drayLogPath():&#160;fs.c'],['../fs_8h.html#a4a32ecc47e89ae484b2b1cbec95cfdf0',1,'drayLogPath():&#160;fs.c']]]
 ];

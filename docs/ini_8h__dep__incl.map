@@ -1,0 +1,22 @@
+<map id="src/ini.h" name="src/ini.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="200,5,272,33"/>
+<area shape="rect" id="Node000002" href="$cfg_8h.html" title="Анализирует конфигурацию в config.ini." alt="" coords="150,81,226,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="222,48,199,82,195,79,217,45"/>
+<area shape="rect" id="Node000009" href="$ini_8c.html" title=" " alt="" coords="250,81,321,109"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="256,45,279,79,275,82,251,48"/>
+<area shape="rect" id="Node000003" href="$cfg_8c.html" title=" " alt="" coords="5,157,81,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,118,70,159,68,154,147,114"/>
+<area shape="rect" id="Node000004" href="$fs_8h.html" title="Модуль для работы с файловой системой" alt="" coords="190,157,258,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="204,122,220,155,216,157,199,124"/>
+<area shape="rect" id="Node000006" href="$main_8c.html" title="Прога для комфортного кача с YouTube." alt="" coords="199,308,287,336"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="172,123,155,152,141,187,136,224,139,242,145,259,157,274,171,287,204,305,202,310,168,291,153,278,141,261,133,243,131,224,136,186,151,150,168,120"/>
+<area shape="rect" id="Node000007" href="$yt__dlp_8h.html" title="Модуль для работы с yt&#45;dlp." alt="" coords="296,232,392,260"/>
+<area shape="poly" id="edge10_Node000002_Node000007" title=" " alt="" coords="223,116,273,155,310,195,337,230,333,234,306,198,269,159,220,120"/>
+<area shape="rect" id="Node000005" href="$fs_8c.html" title=" " alt="" coords="155,232,222,260"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="214,200,197,233,192,231,209,197"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="232,199,236,232,245,308,239,308,231,233,226,200"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="260,190,324,230,322,234,257,195"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="315,272,263,310,259,305,312,267"/>
+<area shape="rect" id="Node000008" href="$yt__dlp_8c.html" title=" " alt="" coords="311,308,407,336"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="353,275,359,307,354,308,347,276"/>
+</map>

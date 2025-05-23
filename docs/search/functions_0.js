@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['draylogpath_0',['drayLogPath',['../fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42',1,'drayLogPath(char *path):&#160;fs.c'],['../fs_8h.html#a19ed4f16202168c3c0808762ce2fdf42',1,'drayLogPath(char *path):&#160;fs.c']]]
+  ['analyser_0',['analyser',['../cfg_8c.html#a802ab649b7fede02c3ecbf5723fcfb8b',1,'analyser(void *mainConf, const char *section, const char *name, const char *value):&#160;cfg.c'],['../cfg_8h.html#a802ab649b7fede02c3ecbf5723fcfb8b',1,'analyser(void *mainConf, const char *section, const char *name, const char *value):&#160;cfg.h']]]
 ];

@@ -94,35 +94,33 @@ $(function(){ initResizable(false); });
 <a href="fs_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;errno.h&gt;</span>    <span class="comment">// Для errno и EEXIST</span></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdio.h&gt;</span>    <span class="comment">// Для perror(), FILE, fopen(), fclose(), fprintf(), snprintf()</span></div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span>   <span class="comment">// Для exit()</span></div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string.h&gt;</span>   <span class="comment">// Для strcspn(), strcmp()</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;sys/stat.h&gt;</span> <span class="comment">// Для mkdir()</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;<a class="code" href="config_8h.html">config.h</a>&quot;</span>   <span class="comment">// Конфигурация</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#ad434ffce2667f992ccfb4b3c200ecd0d">mkdir_p</a>(<span class="keywordtype">char</span> *path);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#a791c8dff05a93ea82bde76fc7c4a94ca">initDirs</a>();</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#a19ed4f16202168c3c0808762ce2fdf42">drayLogPath</a>(<span class="keywordtype">char</span>* path);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span></div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#ac7135dd56474a60b51b7121ced937914">log_video_id</a>(<span class="keywordtype">char</span> *video_id);</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keywordtype">int</span> <a class="code hl_function" href="fs_8h.html#a65ecb49246f4d74a183116704b7968a0">is_video_downloaded</a>(<span class="keywordtype">char</span> *video_id);</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="config_8h.html">config.h</a></div><div class="ttdoc">Конфигурация</div></div>
-<div class="ttc" id="afs_8h_html_a19ed4f16202168c3c0808762ce2fdf42"><div class="ttname"><a href="fs_8h.html#a19ed4f16202168c3c0808762ce2fdf42">drayLogPath</a></div><div class="ttdeci">void drayLogPath(char *path)</div><div class="ttdoc">Вычисляет путь к DRAY_LOG и копирует его в указатель</div><div class="ttdef"><b>Определения</b> fs.c:22</div></div>
-<div class="ttc" id="afs_8h_html_a65ecb49246f4d74a183116704b7968a0"><div class="ttname"><a href="fs_8h.html#a65ecb49246f4d74a183116704b7968a0">is_video_downloaded</a></div><div class="ttdeci">int is_video_downloaded(char *video_id)</div><div class="ttdoc">Проверка, есть ли ID видео в логе</div><div class="ttdef"><b>Определения</b> fs.c:39</div></div>
-<div class="ttc" id="afs_8h_html_a791c8dff05a93ea82bde76fc7c4a94ca"><div class="ttname"><a href="fs_8h.html#a791c8dff05a93ea82bde76fc7c4a94ca">initDirs</a></div><div class="ttdeci">void initDirs()</div><div class="ttdoc">Создаёт нужные папки</div><div class="ttdef"><b>Определения</b> fs.c:16</div></div>
-<div class="ttc" id="afs_8h_html_ac7135dd56474a60b51b7121ced937914"><div class="ttname"><a href="fs_8h.html#ac7135dd56474a60b51b7121ced937914">log_video_id</a></div><div class="ttdeci">void log_video_id(char *video_id)</div><div class="ttdoc">Запись ID видео в лог</div><div class="ttdef"><b>Определения</b> fs.c:26</div></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &lt;stdio.h&gt;</span>    <span class="comment">// Для perror(), FILE, fopen(), fclose(), printf(), fprintf(), snprintf()</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span>   <span class="comment">// Для exit(), malloc(), free(), system()</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string.h&gt;</span>   <span class="comment">// Для strcspn(), strcmp()</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="cfg_8h.html">cfg.h</a>&quot;</span>      <span class="comment">// Для config</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="config_8h.html">config.h</a>&quot;</span>   <span class="comment">// Константы</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#ad434ffce2667f992ccfb4b3c200ecd0d">mkdir_p</a>(<span class="keywordtype">char</span> *path);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#a791c8dff05a93ea82bde76fc7c4a94ca">initDirs</a>();</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keywordtype">char</span>* <a class="code hl_function" href="fs_8h.html#a4a32ecc47e89ae484b2b1cbec95cfdf0">drayLogPath</a>();</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keywordtype">void</span> <a class="code hl_function" href="fs_8h.html#ac7135dd56474a60b51b7121ced937914">log_video_id</a>(<span class="keywordtype">char</span> *video_id);</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keywordtype">int</span> <a class="code hl_function" href="fs_8h.html#a65ecb49246f4d74a183116704b7968a0">is_video_downloaded</a>(<span class="keywordtype">char</span> *video_id);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="ttc" id="acfg_8h_html"><div class="ttname"><a href="cfg_8h.html">cfg.h</a></div><div class="ttdoc">Анализирует конфигурацию в config.ini.</div></div>
+<div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="config_8h.html">config.h</a></div><div class="ttdoc">Константы</div></div>
+<div class="ttc" id="afs_8h_html_a4a32ecc47e89ae484b2b1cbec95cfdf0"><div class="ttname"><a href="fs_8h.html#a4a32ecc47e89ae484b2b1cbec95cfdf0">drayLogPath</a></div><div class="ttdeci">char * drayLogPath()</div><div class="ttdoc">Возвращает указатель на путь к DRAY_LOG.</div><div class="ttdef"><b>Определения</b> fs.c:18</div></div>
+<div class="ttc" id="afs_8h_html_a65ecb49246f4d74a183116704b7968a0"><div class="ttname"><a href="fs_8h.html#a65ecb49246f4d74a183116704b7968a0">is_video_downloaded</a></div><div class="ttdeci">int is_video_downloaded(char *video_id)</div><div class="ttdoc">Проверка, есть ли ID видео в логе</div><div class="ttdef"><b>Определения</b> fs.c:40</div></div>
+<div class="ttc" id="afs_8h_html_a791c8dff05a93ea82bde76fc7c4a94ca"><div class="ttname"><a href="fs_8h.html#a791c8dff05a93ea82bde76fc7c4a94ca">initDirs</a></div><div class="ttdeci">void initDirs()</div><div class="ttdoc">Создаёт нужные папки</div><div class="ttdef"><b>Определения</b> fs.c:12</div></div>
+<div class="ttc" id="afs_8h_html_ac7135dd56474a60b51b7121ced937914"><div class="ttname"><a href="fs_8h.html#ac7135dd56474a60b51b7121ced937914">log_video_id</a></div><div class="ttdeci">void log_video_id(char *video_id)</div><div class="ttdoc">Запись ID видео в лог</div><div class="ttdef"><b>Определения</b> fs.c:27</div></div>
 <div class="ttc" id="afs_8h_html_ad434ffce2667f992ccfb4b3c200ecd0d"><div class="ttname"><a href="fs_8h.html#ad434ffce2667f992ccfb4b3c200ecd0d">mkdir_p</a></div><div class="ttdeci">void mkdir_p(char *path)</div><div class="ttdoc">Создаёт папку, если её ещё нет</div><div class="ttdef"><b>Определения</b> fs.c:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Документация по y2d. Последние изменения: Ср 21 Май 2025 07:23:13. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+Документация по y2d. Последние изменения: Пт 23 Май 2025 08:30:53. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
 </small></address>
 </div><!-- doc-content -->
 </body>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['audio_5fdir_0',['AUDIO_DIR',['../config_8h.html#a8fe03454ee3781b4ed8126fa55a63ddf',1,'config.h']]]
+  ['analyser_0',['analyser',['../cfg_8c.html#a802ab649b7fede02c3ecbf5723fcfb8b',1,'analyser(void *mainConf, const char *section, const char *name, const char *value):&#160;cfg.c'],['../cfg_8h.html#a802ab649b7fede02c3ecbf5723fcfb8b',1,'analyser(void *mainConf, const char *section, const char *name, const char *value):&#160;cfg.h']]]
 ];

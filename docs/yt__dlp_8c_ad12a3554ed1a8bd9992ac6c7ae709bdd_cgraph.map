@@ -9,7 +9,7 @@
 <area shape="rect" id="Node000005" href="$fs_8c.html#ac7135dd56474a60b51b7121ced937914" title="Запись ID видео в лог" alt="" coords="344,57,447,85"/>
 <area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="267,69,328,69,328,74,267,75"/>
 <area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="250,84,337,106,336,111,249,89"/>
-<area shape="rect" id="Node000004" href="$fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42" title="Вычисляет путь к DRAY_LOG и копирует его в указатель" alt="" coords="524,32,626,60"/>
+<area shape="rect" id="Node000004" href="$fs_8c.html#a4a32ecc47e89ae484b2b1cbec95cfdf0" title="Возвращает указатель на путь к DRAY_LOG." alt="" coords="524,32,626,60"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="477,29,509,33,509,39,476,34"/>
 <area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="447,61,509,52,510,58,448,67"/>
 </map>

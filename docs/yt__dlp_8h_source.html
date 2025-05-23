@@ -98,24 +98,26 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span> <span class="comment">// Для system()</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string.h&gt;</span> <span class="comment">// Для strcpy(), strcspn()</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;unistd.h&gt;</span> <span class="comment">// Для sleep()</span></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="fs_8h.html">fs.h</a>&quot;</span>     <span class="comment">// Для is_video_downloaded()</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="config_8h.html">config.h</a>&quot;</span> <span class="comment">// Конфигурация</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keywordtype">void</span> <a class="code hl_function" href="yt__dlp_8h.html#ad12a3554ed1a8bd9992ac6c7ae709bdd">yt_dlp</a>(<span class="keywordtype">char</span>* url, <span class="keywordtype">char</span> mode);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keywordtype">void</span> <a class="code hl_function" href="yt__dlp_8h.html#ae0f89d7d0a43f9be78538dafce7b4e3a">run_yt_dlp</a>(<span class="keywordtype">char</span> *url, <span class="keywordtype">char</span> *opts, <span class="keywordtype">char</span> *out_dir, <span class="keywordtype">char</span> *out_tmpl);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span><span class="keywordtype">void</span> <a class="code hl_function" href="yt__dlp_8h.html#aac411bed2012a2feac84bce1d514d1c7">process_playlist_ids</a>(<span class="keywordtype">char</span> *url);</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="config_8h.html">config.h</a></div><div class="ttdoc">Конфигурация</div></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="cfg_8h.html">cfg.h</a>&quot;</span>    <span class="comment">// Для config</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="config_8h.html">config.h</a>&quot;</span> <span class="comment">// Константы</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;<a class="code" href="fs_8h.html">fs.h</a>&quot;</span>     <span class="comment">// Для is_video_downloaded()</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="keywordtype">void</span> <a class="code hl_function" href="yt__dlp_8h.html#ad12a3554ed1a8bd9992ac6c7ae709bdd">yt_dlp</a>(<span class="keywordtype">char</span>* url, <span class="keywordtype">char</span> mode);</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span></div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keywordtype">void</span> <a class="code hl_function" href="yt__dlp_8h.html#ae0f89d7d0a43f9be78538dafce7b4e3a">run_yt_dlp</a>(<span class="keywordtype">char</span> *url, <span class="keywordtype">char</span> *opts, <span class="keywordtype">char</span> *out_dir, <span class="keywordtype">char</span> *out_tmpl);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="keywordtype">void</span> <a class="code hl_function" href="yt__dlp_8h.html#aac411bed2012a2feac84bce1d514d1c7">process_playlist_ids</a>(<span class="keywordtype">char</span> *url);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="ttc" id="acfg_8h_html"><div class="ttname"><a href="cfg_8h.html">cfg.h</a></div><div class="ttdoc">Анализирует конфигурацию в config.ini.</div></div>
+<div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="config_8h.html">config.h</a></div><div class="ttdoc">Константы</div></div>
 <div class="ttc" id="afs_8h_html"><div class="ttname"><a href="fs_8h.html">fs.h</a></div><div class="ttdoc">Модуль для работы с файловой системой</div></div>
-<div class="ttc" id="ayt__dlp_8h_html_aac411bed2012a2feac84bce1d514d1c7"><div class="ttname"><a href="yt__dlp_8h.html#aac411bed2012a2feac84bce1d514d1c7">process_playlist_ids</a></div><div class="ttdeci">void process_playlist_ids(char *url)</div><div class="ttdoc">Получение и обработка ID видео из плейлиста</div><div class="ttdef"><b>Определения</b> yt_dlp.c:44</div></div>
+<div class="ttc" id="ayt__dlp_8h_html_aac411bed2012a2feac84bce1d514d1c7"><div class="ttname"><a href="yt__dlp_8h.html#aac411bed2012a2feac84bce1d514d1c7">process_playlist_ids</a></div><div class="ttdeci">void process_playlist_ids(char *url)</div><div class="ttdoc">Получение и обработка ID видео из плейлиста</div><div class="ttdef"><b>Определения</b> yt_dlp.c:46</div></div>
 <div class="ttc" id="ayt__dlp_8h_html_ad12a3554ed1a8bd9992ac6c7ae709bdd"><div class="ttname"><a href="yt__dlp_8h.html#ad12a3554ed1a8bd9992ac6c7ae709bdd">yt_dlp</a></div><div class="ttdeci">void yt_dlp(char *url, char mode)</div><div class="ttdoc">Скачка url с запрошенным режимом</div><div class="ttdef"><b>Определения</b> yt_dlp.c:3</div></div>
-<div class="ttc" id="ayt__dlp_8h_html_ae0f89d7d0a43f9be78538dafce7b4e3a"><div class="ttname"><a href="yt__dlp_8h.html#ae0f89d7d0a43f9be78538dafce7b4e3a">run_yt_dlp</a></div><div class="ttdeci">void run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl)</div><div class="ttdoc">Обёртка вокруг консольной команды yt-dlp.</div><div class="ttdef"><b>Определения</b> yt_dlp.c:24</div></div>
+<div class="ttc" id="ayt__dlp_8h_html_ae0f89d7d0a43f9be78538dafce7b4e3a"><div class="ttname"><a href="yt__dlp_8h.html#ae0f89d7d0a43f9be78538dafce7b4e3a">run_yt_dlp</a></div><div class="ttdeci">void run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl)</div><div class="ttdoc">Обёртка вокруг консольной команды yt-dlp.</div><div class="ttdef"><b>Определения</b> yt_dlp.c:26</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Документация по y2d. Последние изменения: Ср 21 Май 2025 07:23:13. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+Документация по y2d. Последние изменения: Пт 23 Май 2025 08:30:53. Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
 </small></address>
 </div><!-- doc-content -->
 </body>

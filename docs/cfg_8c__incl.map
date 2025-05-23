@@ -1,0 +1,20 @@
+<map id="src/cfg.c" name="src/cfg.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="258,5,333,33"/>
+<area shape="rect" id="Node000002" href="$cfg_8h.html" title="Анализирует конфигурацию в config.ini." alt="" coords="269,81,322,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="298,34,298,65,293,65,293,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,157,87,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="269,107,102,155,101,150,267,102"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,157,186,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,112,189,152,187,147,268,107"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="364,232,429,260"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="281,111,266,127,253,145,246,164,251,183,271,204,295,219,323,230,349,237,348,242,321,235,293,224,267,208,246,186,241,164,248,143,262,123,278,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="261,157,330,184"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="298,109,298,141,293,141,293,109"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="354,157,424,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="314,107,362,145,359,149,310,111"/>
+<area shape="rect" id="Node000008" href="$config_8h.html" title="Константы" alt="" coords="448,157,521,184"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="323,104,437,148,435,153,322,109"/>
+<area shape="rect" id="Node000009" href="$ini_8h.html" title=" " alt="" coords="545,157,595,184"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="323,100,531,154,530,159,322,105"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="546,185,443,228,441,223,544,180"/>
+</map>

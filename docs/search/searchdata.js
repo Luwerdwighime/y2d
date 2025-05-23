@@ -1,11 +1,12 @@
 var indexSectionsWithContent =
 {
-  0: "abcdefghilmopruvy",
-  1: "o",
-  2: "cfmuy",
-  3: "dghilmpry",
-  4: "bmu",
-  5: "abcdefmprvy"
+  0: "abcdefghilmnopruy",
+  1: "cio",
+  2: "cfimuy",
+  3: "adghilmpry",
+  4: "bcfmnopuy",
+  5: "i",
+  6: "behim"
 };
 
 var indexSectionNames =
@@ -15,7 +16,8 @@ var indexSectionNames =
   2: "files",
   3: "functions",
   4: "variables",
-  5: "defines"
+  5: "typedefs",
+  6: "defines"
 };
 
 var indexSectionLabels =
@@ -25,6 +27,7 @@ var indexSectionLabels =
   2: "Файлы",
   3: "Функции",
   4: "Переменные",
-  5: "Макросы"
+  5: "Определения типов",
+  6: "Макросы"
 };
 

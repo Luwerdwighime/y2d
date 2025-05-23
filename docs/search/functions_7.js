@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['run_5fyt_5fdlp_0',['run_yt_dlp',['../yt__dlp_8c.html#ae0f89d7d0a43f9be78538dafce7b4e3a',1,'run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl):&#160;yt_dlp.c'],['../yt__dlp_8h.html#ae0f89d7d0a43f9be78538dafce7b4e3a',1,'run_yt_dlp(char *url, char *opts, char *out_dir, char *out_tmpl):&#160;yt_dlp.c']]]
+  ['process_5fplaylist_5fids_0',['process_playlist_ids',['../yt__dlp_8c.html#aac411bed2012a2feac84bce1d514d1c7',1,'process_playlist_ids(char *url):&#160;yt_dlp.c'],['../yt__dlp_8h.html#aac411bed2012a2feac84bce1d514d1c7',1,'process_playlist_ids(char *url):&#160;yt_dlp.c']]]
 ];

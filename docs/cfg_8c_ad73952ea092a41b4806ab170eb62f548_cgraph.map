@@ -1,0 +1,19 @@
+<map id="loadIni" name="loadIni">
+<area shape="rect" id="Node000001" title="Загружает ini в переменную config." alt="" coords="5,59,71,86"/>
+<area shape="rect" id="Node000002" href="$cfg_8c.html#a802ab649b7fede02c3ecbf5723fcfb8b" title=" " alt="" coords="120,32,198,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,63,104,55,106,60,72,68"/>
+<area shape="rect" id="Node000003" href="$ini_8c.html#a2fab292681265b7774e2a2885abb758c" title=" " alt="" coords="119,84,199,112"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="72,77,104,84,103,89,70,82"/>
+<area shape="rect" id="Node000004" href="$ini_8c.html#a876bf8b62ade275320db827b929f9289" title=" " alt="" coords="247,84,354,112"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="199,95,231,95,231,100,199,100"/>
+<area shape="rect" id="Node000005" href="$ini_8c.html#ad8b766ac18397b0b262559203ea7f602" title=" " alt="" coords="402,84,536,112"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="355,95,387,95,387,100,355,100"/>
+<area shape="rect" id="Node000006" href="$ini_8c.html#a94d886b4c60efdbc34fafd51d6fa6aef" title=" " alt="" coords="584,5,783,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="497,81,583,43,608,35,609,40,585,48,499,86"/>
+<area shape="rect" id="Node000007" href="$ini_8c.html#a3dcb94a4fb0053e4c85ee6fa56cb48b5" title=" " alt="" coords="646,57,721,85"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="536,87,630,75,631,80,536,92"/>
+<area shape="rect" id="Node000008" href="$ini_8c.html#a6720662d19174eab055f3a2d3ec5825c" title=" " alt="" coords="644,109,722,137"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="536,103,629,114,629,119,536,108"/>
+<area shape="rect" id="Node000009" href="$ini_8c.html#a167d3a11167d87db33c4d770f698367f" title=" " alt="" coords="633,161,734,189"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="500,110,585,146,619,157,617,162,583,151,498,115"/>
+</map>

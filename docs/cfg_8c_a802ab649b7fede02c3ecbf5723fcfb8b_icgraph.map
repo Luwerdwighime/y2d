@@ -1,0 +1,7 @@
+<map id="analyser" name="analyser">
+<area shape="rect" id="Node000001" title=" " alt="" coords="221,5,298,33"/>
+<area shape="rect" id="Node000002" href="$cfg_8c.html#ad73952ea092a41b4806ab170eb62f548" title="Загружает ini в переменную config." alt="" coords="108,5,173,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,22,173,22,173,16,206,16"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,22,60,22,60,16,92,16"/>
+</map>

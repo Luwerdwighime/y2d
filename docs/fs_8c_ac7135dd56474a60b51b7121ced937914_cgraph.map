@@ -1,5 +1,5 @@
 <map id="log_video_id" name="log_video_id">
 <area shape="rect" id="Node000001" title="Запись ID видео в лог" alt="" coords="5,5,109,33"/>
-<area shape="rect" id="Node000002" href="$fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42" title="Вычисляет путь к DRAY_LOG и копирует его в указатель" alt="" coords="157,5,258,33"/>
+<area shape="rect" id="Node000002" href="$fs_8c.html#a4a32ecc47e89ae484b2b1cbec95cfdf0" title="Возвращает указатель на путь к DRAY_LOG." alt="" coords="157,5,258,33"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,16,141,16,141,22,109,22"/>
 </map>

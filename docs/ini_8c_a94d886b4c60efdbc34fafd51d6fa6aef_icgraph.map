@@ -1,0 +1,15 @@
+<map id="ini_find_chars_or_comment" name="ini_find_chars_or_comment">
+<area shape="rect" id="Node000001" title=" " alt="" coords="703,32,902,60"/>
+<area shape="rect" id="Node000002" href="$ini_8c.html#ad8b766ac18397b0b262559203ea7f602" title=" " alt="" coords="522,32,655,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="688,48,655,48,655,43,688,43"/>
+<area shape="rect" id="Node000003" href="$ini_8c.html#a876bf8b62ade275320db827b929f9289" title=" " alt="" coords="358,5,465,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="506,36,465,30,466,25,507,31"/>
+<area shape="rect" id="Node000007" href="$ini_8c.html#aeb90a0b5e4226351899d28ead4eed6fa" title=" " alt="" coords="349,57,474,85"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="507,60,475,65,474,60,506,55"/>
+<area shape="rect" id="Node000004" href="$ini_8c.html#a2fab292681265b7774e2a2885abb758c" title=" " alt="" coords="221,5,301,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="342,22,302,22,302,16,342,16"/>
+<area shape="rect" id="Node000005" href="$cfg_8c.html#ad73952ea092a41b4806ab170eb62f548" title="Загружает ini в переменную config." alt="" coords="108,5,173,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="205,22,173,22,173,16,205,16"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Точка входа в программу" alt="" coords="5,5,60,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="92,22,60,22,60,16,92,16"/>
+</map>

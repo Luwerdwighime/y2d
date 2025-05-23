@@ -1,5 +1,5 @@
 <map id="is_video_downloaded" name="is_video_downloaded">
 <area shape="rect" id="Node000001" title="Проверка, есть ли ID видео в логе" alt="" coords="5,5,167,33"/>
-<area shape="rect" id="Node000002" href="$fs_8c.html#a19ed4f16202168c3c0808762ce2fdf42" title="Вычисляет путь к DRAY_LOG и копирует его в указатель" alt="" coords="215,5,316,33"/>
+<area shape="rect" id="Node000002" href="$fs_8c.html#a4a32ecc47e89ae484b2b1cbec95cfdf0" title="Возвращает указатель на путь к DRAY_LOG." alt="" coords="215,5,316,33"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,16,199,16,199,22,167,22"/>
 </map>

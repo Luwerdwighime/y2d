@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['audio_5fdir_0',['AUDIO_DIR',['../config_8h.html#a8fe03454ee3781b4ed8126fa55a63ddf',1,'config.h']]]
+  ['buf_5flen_0',['BUF_LEN',['../config_8h.html#a8b5839f71a3b6e7d64b2d5e9967e3dd1',1,'config.h']]]
 ];

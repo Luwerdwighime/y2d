@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['err_5fdir_0',['ERR_DIR',['../config_8h.html#a795af8f99dc09d715c3a600a2646073b',1,'config.h']]],
-  ['err_5fdraylog_1',['ERR_DRAYLOG',['../config_8h.html#ac4666e6da365f1395e6668d2d4c26aab',1,'config.h']]],
-  ['err_5fopts_2',['ERR_OPTS',['../config_8h.html#a0cc3f878e01638a3e38bdf9e300146b1',1,'config.h']]],
-  ['err_5fytid_3',['ERR_YTID',['../config_8h.html#aeee0ae340bd1d5dfb95a03d28f535453',1,'config.h']]]
+  ['match_0',['MATCH',['../cfg_8c.html#af06fecdfaf06dfc4fdb5dc5b386dbfe3',1,'cfg.c']]],
+  ['max_5fname_1',['MAX_NAME',['../ini_8c.html#ac7c0207aa5a0e10d378be03b68041350',1,'ini.c']]],
+  ['max_5fsection_2',['MAX_SECTION',['../ini_8c.html#aaf452164719d4d290a4766282df9d690',1,'ini.c']]]
 ];
