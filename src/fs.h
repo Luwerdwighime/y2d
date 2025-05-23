@@ -4,11 +4,9 @@
  */
 
 #pragma once
-#include <errno.h>    // Для errno, EEXIST
-#include <stdio.h>    // Для perror(), FILE, fopen(), fclose(), fprintf(), snprintf()
-#include <stdlib.h>   // Для exit()
+#include <stdio.h>    // Для perror(), FILE, fopen(), fclose(), printf(), fprintf(), snprintf()
+#include <stdlib.h>   // Для exit(), malloc(), free(), system()
 #include <string.h>   // Для strcspn(), strcmp()
-#include <sys/stat.h> // Для mkdir()
 #include "cfg.h"      // Для config
 #include "config.h"   // Константы
 
@@ -25,11 +23,11 @@ void mkdir_p(char *path);
 void initDirs();
 
 /**
- * @brief Вычисляет путь к DRAY_LOG и копирует его в указатель
+ * @brief Возвращает указатель на путь к DRAY_LOG
  *
- * @param path Указатель на полный путь к DRAY_LOG
+ * @return Указатель на полный путь к DRAY_LOG
  */
-void drayLogPath(char* path);
+char* drayLogPath();
 
 /**
  * @brief Запись ID видео в лог

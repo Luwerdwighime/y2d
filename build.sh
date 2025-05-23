@@ -5,4 +5,3 @@ cmake --build build -j8
 mv build/y2d .
 rm -rf build
 
-

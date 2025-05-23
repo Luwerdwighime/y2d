@@ -3,11 +3,10 @@
  * @brief Прога для комфортного кача с YouTube
  */
 
-#include <string.h> // Для strcpy()
 #include "config.h" // Константы
-#include "cfg.h"    // Для loadIni()
+#include "cfg.h"    // Для getTermOpts(), loadIni(), options, config
 #include "fs.h"     // Для initDirs()
-#include "user.h"   // Для типа Options, getTermOpts(), menu(), getUrl(), help()
+#include "user.h"   // Для menu(), getUrl(), help()
 #include "yt_dlp.h" // Для yt_dlp()
 
 #include <stdio.h>  // Debug
@@ -16,52 +15,38 @@
  * @brief Точка входа в программу
  *
  * @param argc Число параметров командной строки
- * @param argv Массив с параметрами
+ * @param argv Массив указателей на строки с параметрами
  *
  * @return Числовые коды ошибок или 0 при успехе
  */
 int main(int argc, char* argv[]) {
-  
-  loadIni(); // Загружаем ini конфиг в структуру
-  // Временный код для дебага
-  printf("Debug ini:\n"
-    "dir_rights: %04o\n" "video_dir: %s\n"
-    "audio_dir:  %s\n"   "dray_dir:  %s\n"
-    "dray_log: %s\n"     "cookie_path: %s\n"
-    "ytids: %s\n"        "ytcmd: %s\n"
-    "mode1: %s\n"        "mode2: %s\n"
-    "modep: %s\n"        "fname: %s\n"
-    "pname: %s\n"        "retr: %i\n",
-    config.fsDir_rights, config.fsVideo_dir,
-    config.fsAudio_dir,  config.fsDray_dir,
-    config.fsDray_log,   config.fsCookie_path,
-    config.ytYtids,      config.ytYtcmd,
-    config.ytMode1,      config.ytMode2,
-    config.ytModep,      config.ytFname,
-    config.ytPname,      config.ytRetr
-  );
+  char  mode; // Режим работы
+  char* url;  // Указатель на URL
 
-//  initDirs(); // Создаем директории, если надо
+  // Получаем опции из параметров командной строки
+  getTermOpts(argc, argv);
 
-  // Анализируем параметры, доспрашиваем необходимое
-  char mode; // Режим работы
-  char url[BUF_LEN]; // Память под URL
-  Options opts = getTermOpts(argc, argv); // Получаем опции из параметров командной строки
-  if (opts.bug) { // Юзер ошибся с опциями
-    help();
+  // Загружаем ini конфиг в структуру
+  if (options.config) loadIni(options.config);
+  else                loadIni(INI_CFG);
+
+  initDirs(); // Создаем директории, если надо
+
+  // Доспрашиваем необходимое
+  if (options.bug) {
+    help(); // Юзер ошибся с опциями
     return ERR_OPTS; // Критический выход
   }
-  if (opts.mode == 'h') { // Юзер хочет хэлп
-    help();
+  if (options.mode == 'h') {
+    help(); // Юзер хочет хэлп
     return 0; // Просто выход
   }
-  if (!opts.mode) menu(&mode); // Юзер не указал режим, спрашиваем
-  else mode = opts.mode;
-  if (!opts.url) getUrl(url); // Юзер не указал URL, спрашиваем
-  else strcpy(url, opts.url);
+  if (!options.mode) mode = menu(); // Юзер не указал режим, спрашиваем
+  else mode = options.mode;
+  if (!options.url) url = getUrl(); // Юзер не указал URL, спрашиваем
+  else url = options.url;
 
-  printf("mode: '%c'\nurl: %s\n", mode, url);
- // yt_dlp(url, mode); // Работаем
+  yt_dlp(url, mode); // Работаем
   return 0;          // Profit!
 }
 

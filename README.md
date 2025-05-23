@@ -11,21 +11,23 @@
 5. Докачать Дмитрия Рея
 
 ## Использование
-y2d [РЕЖИМ] [URL]
+y2d [-c|--config] [-h|--help] [РЕЖИМ] [URL]
++ РЕЖИМ - это -1, -2, -3, -4, -5 или хэлп (-h|--help)
 + Если указан и РЕЖИМ, и URL, то программа будет работать в скриптовом silence виде
 + Если указан только URL, то программа интерактивно спросит про РЕЖИМ
 + Если параметры не указаны, то полностью интерактивный вид
++ Если не указан конфиг (-c|--config), то будет использован config.ini из текущей папки
 
 ## Сборка в Termux
 ```shell
-pkg install cmake gcc
+pkg install cmake gcc yt-dlp
 git clone git@github.com:Luwerdwighime/y2d.git
 cd y2d
 ./build.sh
 
 # Если хочется ещё и HTML документацию, то:
 pkg install doxygen
-doxygen
+./docs.sh
 
 ```
 

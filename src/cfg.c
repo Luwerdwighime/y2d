@@ -1,5 +1,47 @@
 #include "cfg.h"
 
+// Выделяем память под опции из командной строки
+// и обнуляем все показатели (настройки по умолчаню)
+Options options = {false, NULL, 0, NULL};
+
+void getTermOpts(int argc, char *argv[]) {
+  // Короткие опции
+  static const char* shOpts = "12345c:h";
+
+  // Длинные опции
+  static const struct option lOpts[] = {
+    {"config", required_argument, 0, 'c'},
+    {"help",   no_argument,       0, 'h'},
+    {0, 0, 0, 0}
+  };
+
+  // Читаем опции поштучно
+  int opt;
+  int oEnabl = 0;
+  while(true) {
+    opt = getopt_long(argc, argv, shOpts, lOpts, NULL); // Анализим
+    if (opt == -1) break; // Нет больше опций в строке
+
+    // Разбираем ответы
+    switch (opt) {
+      case '1': options.mode = opt; oEnabl++; break;
+      case '2': options.mode = opt; oEnabl++; break;
+      case '3': options.mode = opt; oEnabl++; break;
+      case '4': options.mode = opt; oEnabl++; break;
+      case '5': options.mode = opt; oEnabl++; break;
+      case 'c': options.config = optarg; break;
+      case 'h': options.mode = opt; oEnabl++; break;
+      default: options.bug = true;
+    }
+  }
+
+  // Все опции режимные, их может быть не больше одной штуки
+  if (oEnabl > 1) options.bug = true;
+
+  // Проверяем, есть ли неопционный аргумент (URL)
+  if (optind < argc) options.url = argv[optind];
+}
+
 // Выделяем память под конфиг из ini с глобальной видимостью
 Config config;
 
@@ -42,9 +84,9 @@ static int analyser(
   return 1;
 }
 
-void loadIni() {
-  if (ini_parse(INI_CFG, analyser, &config) < 0) {
-    printf("Не могу загрузить '%s'\n", INI_CFG);
+void loadIni(char* file) {
+  if (ini_parse(file, analyser, &config) < 0) {
+    printf("Не могу загрузить '%s'\n", file);
     exit(ERR_INI);
   }
 }
